@@ -5,7 +5,7 @@ runs:
   - runName: "Node 1"
     fullPath: "/home/ubuntu/after/dc-app-performance-toolkit/app/results/jira/2020-11-23_14-49-16"
   - runName: "Node 2"
-    fullPath: "/home/ubuntu/after/dc-app-performance-toolkit/app/results/jira/2020-11-23_12-07-49"
+    fullPath: "/home/ubuntu/after/dc-app-performance-toolkit/app/results/jira/2020-11-20_15-12-20"
   - runName: "Node 4"
     fullPath: "/home/ubuntu/after/dc-app-performance-toolkit/app/results/jira/2020-11-23_13-11-22"
 
