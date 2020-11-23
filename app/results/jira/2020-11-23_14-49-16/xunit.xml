@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="sample_labels" package_name="bzt">
+    <testcase classname="bzt-8736409027991" name="jmeter_browse_boards"/>
+    <testcase classname="bzt-8736409027991" name="jmeter_browse_projects"/>
+    <testcase classname="bzt-8736409027991" name="jmeter_create_issue"/>
+    <testcase classname="bzt-8736409027991" name="jmeter_login_and_view_dashboard"/>
+    <testcase classname="bzt-8736409027991" name="jmeter_open_comment"/>
+    <testcase classname="bzt-8736409027991" name="jmeter_open_editor"/>
+    <testcase classname="bzt-8736409027991" name="jmeter_open_quick_create"/>
+    <testcase classname="bzt-8736409027991" name="jmeter_save_comment"/>
+    <testcase classname="bzt-8736409027991" name="jmeter_save_edit"/>
+    <testcase classname="bzt-8736409027991" name="jmeter_search_jql"/>
+    <testcase classname="bzt-8736409027991" name="jmeter_view_backlog"/>
+    <testcase classname="bzt-8736409027991" name="jmeter_view_dashboard"/>
+    <testcase classname="bzt-8736409027991" name="jmeter_view_issue">
+      <error message="Number of samples in transaction : 8, number of failing samples : 1" type="Error">Number of samples in transaction : 8, number of failing samples : 1
+(status code is 502)
+(total errors of this type: 1)</error>
+    </testcase>
+    <testcase classname="bzt-8736409027991" name="jmeter_view_kanban_board">
+      <error message="Number of samples in transaction : 12, number of failing samples : 1" type="Error">Number of samples in transaction : 12, number of failing samples : 1
+(status code is 400)
+(total errors of this type: 1)</error>
+    </testcase>
+    <testcase classname="bzt-8736409027991" name="jmeter_view_project_summary"/>
+    <testcase classname="bzt-8736409027991" name="jmeter_view_scrum_board"/>
+    <testcase classname="bzt-8736409027991" name="selenium_a_login">
+      <error message="Exception: ('Failed measure: selenium_login - Exception', Exception('Failed measure: selenium_login:login_and_view_dashboard - TimeoutException', TimeoutException(&quot;Error in wait_until: Timed out after 20 sec waiting for &lt;selenium.webdriver.support.expected_conditions.visibility_of_element_located object at 0x7f885a127160&gt;. \nLocator: ('class name', 'page-type-dashboard')&quot;, None, None)))" type="Error">Exception: ('Failed measure: selenium_login - Exception', Exception('Failed measure: selenium_login:login_and_view_dashboard - TimeoutException', TimeoutException("Error in wait_until: Timed out after 20 sec waiting for &lt;selenium.webdriver.support.expected_conditions.visibility_of_element_located object at 0x7f885a127160&gt;. \nLocator: ('class name', 'page-type-dashboard')", None, None)))
+(status code is 400)
+(total errors of this type: 1)</error>
+    </testcase>
+    <testcase classname="bzt-8736409027991" name="selenium_browse_boards_list"/>
+    <testcase classname="bzt-8736409027991" name="selenium_browse_projects_list"/>
+    <testcase classname="bzt-8736409027991" name="selenium_create_issue"/>
+    <testcase classname="bzt-8736409027991" name="selenium_edit_issue"/>
+    <testcase classname="bzt-8736409027991" name="selenium_save_comment"/>
+    <testcase classname="bzt-8736409027991" name="selenium_search_jql"/>
+    <testcase classname="bzt-8736409027991" name="selenium_view_backlog_for_scrum_board"/>
+    <testcase classname="bzt-8736409027991" name="selenium_view_dashboard"/>
+    <testcase classname="bzt-8736409027991" name="selenium_view_issue"/>
+    <testcase classname="bzt-8736409027991" name="selenium_view_kanban_board"/>
+    <testcase classname="bzt-8736409027991" name="selenium_view_project_summary"/>
+    <testcase classname="bzt-8736409027991" name="selenium_view_scrum_board"/>
+    <testcase classname="bzt-8736409027991" name="selenium_z_log_out"/>
+  </testsuite>
+</testsuites>

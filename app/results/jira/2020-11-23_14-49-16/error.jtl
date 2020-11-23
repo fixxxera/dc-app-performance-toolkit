@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="3151" lt="0" ts="1606144583766" s="false" lb="jmeter_view_issue" rc="502" rm="Number of samples in transaction : 8, number of failing samples : 1" tn="Jira 1-173" dt="" de="" by="41882" ng="200" na="200">
+  <httpSample t="2477" lt="307" ts="1606144583766" s="true" lb="400 /browse/&lt;issue_key&gt;" rc="200" rm="" tn="Jira 1-173" dt="text" de="UTF-8" by="25672" ng="200" na="200">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Mon, 23 Nov 2020 15:16:24 GMT
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=jDiHxSkouhpU84U/9fLjxHpnE4dj9+/TKf7Oa6UQskfs24yjWPozpJqXK2AsQhFjkkczd9G/OEL5fV8y2vGzf5O0X/cYOClTzGXu/POkjkBD5gBtH8uxRAcyTg5d; Expires=Mon, 30 Nov 2020 15:16:23 GMT; Path=/
+Set-Cookie: AWSALBCORS=jDiHxSkouhpU84U/9fLjxHpnE4dj9+/TKf7Oa6UQskfs24yjWPozpJqXK2AsQhFjkkczd9G/OEL5fV8y2vGzf5O0X/cYOClTzGXu/POkjkBD5gBtH8uxRAcyTg5d; Expires=Mon, 30 Nov 2020 15:16:23 GMT; Path=/; SameSite=None
+X-AREQUESTID: 916x413367x95
+X-ASESSIONID: 1jebh9s
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_eitdsisiyk
+X-Accel-Buffering: no
+Vary: User-Agent
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-US,en;q=0.5
+Upgrade-Insecure-Requests: 1
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate
+Pragma: no-cache
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/browse/AAFAIA-2521</java.net.URL>
+  </httpSample>
+  <httpSample t="18" lt="18" ts="1606144586244" s="false" lb="405 /secure/projectavatar" rc="502" rm="Bad Gateway" tn="Jira 1-173" dt="text" de="" by="680" ng="200" na="200">
+    <responseHeader class="java.lang.String">HTTP/1.1 502 Bad Gateway
+Server: awselb/2.0
+Date: Mon, 23 Nov 2020 15:16:26 GMT
+Content-Type: text/html
+Content-Length: 122
+Connection: keep-alive
+Set-Cookie: AWSALB=ah3sg+ggrMrKyBzB6WphN4BypVj1YmbK4X9z2mZjwriqzrbO1t/QdIwDJtCxzvlVBFwNvcshIZFbgQXorT4v6o9JnlOXtON1/Ei+IjCLDT6MadambQtwjfb0cJlR; Expires=Mon, 30 Nov 2020 15:16:26 GMT; Path=/
+Set-Cookie: AWSALBCORS=ah3sg+ggrMrKyBzB6WphN4BypVj1YmbK4X9z2mZjwriqzrbO1t/QdIwDJtCxzvlVBFwNvcshIZFbgQXorT4v6o9JnlOXtON1/Ei+IjCLDT6MadambQtwjfb0cJlR; Expires=Mon, 30 Nov 2020 15:16:26 GMT; Path=/; SameSite=None
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-US,en;q=0.5
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate
+Pragma: no-cache
+Accept: image/webp,*/*
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <responseData class="java.lang.String">&lt;html&gt;&#xd;
+&lt;head&gt;&lt;title&gt;502 Bad Gateway&lt;/title&gt;&lt;/head&gt;&#xd;
+&lt;body&gt;&#xd;
+&lt;center&gt;&lt;h1&gt;502 Bad Gateway&lt;/h1&gt;&lt;/center&gt;&#xd;
+&lt;/body&gt;&#xd;
+&lt;/html&gt;&#xd;
+</responseData>
+    <cookies class="java.lang.String">JSESSIONID=ED346DE77ADD9976FB884E7EF0EE15D6; atlassian.xsrf.token=BW47-UYM6-8XU5-BT4K_5f80b9072b06296ff17da2b098b8f233a35d5e7f_lin; AWSALB=jDiHxSkouhpU84U/9fLjxHpnE4dj9+/TKf7Oa6UQskfs24yjWPozpJqXK2AsQhFjkkczd9G/OEL5fV8y2vGzf5O0X/cYOClTzGXu/POkjkBD5gBtH8uxRAcyTg5d; AWSALBCORS=jDiHxSkouhpU84U/9fLjxHpnE4dj9+/TKf7Oa6UQskfs24yjWPozpJqXK2AsQhFjkkczd9G/OEL5fV8y2vGzf5O0X/cYOClTzGXu/POkjkBD5gBtH8uxRAcyTg5d</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/secure/projectavatar?avatarId=10324</java.net.URL>
+  </httpSample>
+  <httpSample t="94" lt="94" ts="1606144586263" s="true" lb="410 /rest/webResources/1.0/resources" rc="200" rm="" tn="Jira 1-173" dt="text" de="UTF-8" by="1432" ng="200" na="200">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Mon, 23 Nov 2020 15:16:26 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=M2ZXlxNQoTUs0XKDHtQ5CU3VF8sK5c084DYxPMvWnO6yvxyi/kwe5udWI5R/EeR5eE8j++xSx6YvXiHeSOMRDihWA1Z+kmASn+L4ESwD1UC3RlEfdqC5X/4guxaY; Expires=Mon, 30 Nov 2020 15:16:26 GMT; Path=/
+Set-Cookie: AWSALBCORS=M2ZXlxNQoTUs0XKDHtQ5CU3VF8sK5c084DYxPMvWnO6yvxyi/kwe5udWI5R/EeR5eE8j++xSx6YvXiHeSOMRDihWA1Z+kmASn+L4ESwD1UC3RlEfdqC5X/4guxaY; Expires=Mon, 30 Nov 2020 15:16:26 GMT; Path=/; SameSite=None
+X-AREQUESTID: 916x413671x89
+X-ASESSIONID: 1jebh9s
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_eitdsisiyk
+Cache-Control: no-cache, no-store, no-transform
+Vary: User-Agent
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-US,en;q=0.5
+Pragma: no-cache
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Content-Length: 672
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/rest/webResources/1.0/resources</java.net.URL>
+  </httpSample>
+  <httpSample t="7" lt="7" ts="1606144586357" s="true" lb="415 /rest/webResources/1.0/resources" rc="200" rm="" tn="Jira 1-173" dt="text" de="UTF-8" by="1046" ng="200" na="200">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Mon, 23 Nov 2020 15:16:26 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=HfEgZ2gPlKfAQHN6rVpu7u9y9t3RSJCVqT3NZNA5HBWAwqCUo+UD5/vaeQ3zDbwZPhL+Q70C54k0cEdCMfUYCFVY2iNjSKQ8CeAzP0GCEhHmLmt82s8/oriBHe0/; Expires=Mon, 30 Nov 2020 15:16:26 GMT; Path=/
+Set-Cookie: AWSALBCORS=HfEgZ2gPlKfAQHN6rVpu7u9y9t3RSJCVqT3NZNA5HBWAwqCUo+UD5/vaeQ3zDbwZPhL+Q70C54k0cEdCMfUYCFVY2iNjSKQ8CeAzP0GCEhHmLmt82s8/oriBHe0/; Expires=Mon, 30 Nov 2020 15:16:26 GMT; Path=/; SameSite=None
+X-AREQUESTID: 916x413678x91
+X-ASESSIONID: 1jebh9s
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_eitdsisiyk
+Cache-Control: no-cache, no-store, no-transform
+Vary: User-Agent
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-US,en;q=0.5
+Pragma: no-cache
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Content-Length: 1097
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/rest/webResources/1.0/resources</java.net.URL>
+  </httpSample>
+  <httpSample t="12" lt="12" ts="1606144586364" s="true" lb="425 /rest/webResources/1.0/resources" rc="200" rm="" tn="Jira 1-173" dt="text" de="UTF-8" by="2235" ng="200" na="200">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Mon, 23 Nov 2020 15:16:26 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=DoXICOGsPDRublFt8PDPv9pKS13ZnbQ5yWYW4Nr+4ClXPoJCQr/Tp+BeMVSLS2N7hw6ncRj4qoH3gr7ScucKchVqP9VtdpzJfeF9iHdkusSpZIYpt5moQZlUgt44; Expires=Mon, 30 Nov 2020 15:16:26 GMT; Path=/
+Set-Cookie: AWSALBCORS=DoXICOGsPDRublFt8PDPv9pKS13ZnbQ5yWYW4Nr+4ClXPoJCQr/Tp+BeMVSLS2N7hw6ncRj4qoH3gr7ScucKchVqP9VtdpzJfeF9iHdkusSpZIYpt5moQZlUgt44; Expires=Mon, 30 Nov 2020 15:16:26 GMT; Path=/; SameSite=None
+X-AREQUESTID: 916x413679x91
+X-ASESSIONID: 1jebh9s
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_eitdsisiyk
+Cache-Control: no-cache, no-store, no-transform
+Vary: User-Agent
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-US,en;q=0.5
+Pragma: no-cache
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Content-Length: 1608
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/rest/webResources/1.0/resources</java.net.URL>
+  </httpSample>
+  <httpSample t="111" lt="111" ts="1606144586377" s="true" lb="430 /rest/webResources/1.0/resources" rc="200" rm="" tn="Jira 1-173" dt="text" de="UTF-8" by="1443" ng="200" na="200">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Mon, 23 Nov 2020 15:16:26 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=PCYm6sOX1SFduoiWkMyE7E9xfP80n4lvLfaSKHgee/4hvdDCEIn4k5K3C6ilw5Ry3VPV2NZBpr8sN+7aueRUGsYdS1KHdEqTLnbJpc9aAGUxkLFc1Lv9d6GWyX3V; Expires=Mon, 30 Nov 2020 15:16:26 GMT; Path=/
+Set-Cookie: AWSALBCORS=PCYm6sOX1SFduoiWkMyE7E9xfP80n4lvLfaSKHgee/4hvdDCEIn4k5K3C6ilw5Ry3VPV2NZBpr8sN+7aueRUGsYdS1KHdEqTLnbJpc9aAGUxkLFc1Lv9d6GWyX3V; Expires=Mon, 30 Nov 2020 15:16:26 GMT; Path=/; SameSite=None
+X-AREQUESTID: 916x413682x92
+X-ASESSIONID: 1jebh9s
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_eitdsisiyk
+Cache-Control: no-cache, no-store, no-transform
+Vary: User-Agent
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-US,en;q=0.5
+Pragma: no-cache
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Content-Length: 2548
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/rest/webResources/1.0/resources</java.net.URL>
+  </httpSample>
+  <httpSample t="387" lt="387" ts="1606144586488" s="true" lb="435 /secure/AjaxIssueEditAction!default.jspa" rc="200" rm="" tn="Jira 1-173" dt="text" de="UTF-8" by="8374" ng="200" na="200">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Mon, 23 Nov 2020 15:16:26 GMT
+Content-Type: application/json;charset=UTF-8
+Connection: keep-alive
+Set-Cookie: AWSALB=WF9Ee++GywiT9X95Qq/zHTyClljRyyAATwkitI2ooqNpHjvIZsMxH1Q+77gdHvK1eUndLjerI0UF4rhGw5ZxQDtFNBV78yj2WR7yI7ciKz5c+YbE1EWFPm51+JGp; Expires=Mon, 30 Nov 2020 15:16:26 GMT; Path=/
+Set-Cookie: AWSALBCORS=WF9Ee++GywiT9X95Qq/zHTyClljRyyAATwkitI2ooqNpHjvIZsMxH1Q+77gdHvK1eUndLjerI0UF4rhGw5ZxQDtFNBV78yj2WR7yI7ciKz5c+YbE1EWFPm51+JGp; Expires=Mon, 30 Nov 2020 15:16:26 GMT; Path=/; SameSite=None
+X-AREQUESTID: 916x413687x90
+X-ASESSIONID: 1jebh9s
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_eitdsisiyk
+Vary: User-Agent
+Content-Length: 7359
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-US,en;q=0.5
+X-Requested-With: XMLHttpRequest
+X-SITEMESH-OFF: true
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate
+Pragma: no-cache
+Accept: */*
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/secure/AjaxIssueEditAction!default.jspa?decorator=none&amp;issueId=208029&amp;_=1606144586489</java.net.URL>
+  </httpSample>
+  <httpSample t="45" lt="45" ts="1606144586875" s="true" lb="440 /rest/projects/1.0/project/&lt;project_key&gt;/lastVisited" rc="200" rm="" tn="Jira 1-173" dt="text" de="UTF-8" by="1000" ng="200" na="200">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Mon, 23 Nov 2020 15:16:26 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=ZSP7HKESO7534EiwxdtX1oxuih6IX1mT28IZatOeniR7iUjbSR7gxbTGiaz1ZKoHF6jjhNkvsdmcoOrReVY2mPvFztvecMecJBhsAIVyvyQfV4S0nRXg34OGV+eW; Expires=Mon, 30 Nov 2020 15:16:26 GMT; Path=/
+Set-Cookie: AWSALBCORS=ZSP7HKESO7534EiwxdtX1oxuih6IX1mT28IZatOeniR7iUjbSR7gxbTGiaz1ZKoHF6jjhNkvsdmcoOrReVY2mPvFztvecMecJBhsAIVyvyQfV4S0nRXg34OGV+eW; Expires=Mon, 30 Nov 2020 15:16:26 GMT; Path=/; SameSite=None
+X-AREQUESTID: 916x413720x91
+X-ASESSIONID: 1jebh9s
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_eitdsisiyk
+Cache-Control: no-cache, no-store, no-transform
+Vary: User-Agent
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-US,en;q=0.5
+Pragma: no-cache
+Accept: */*
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Content-Length: 81
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/rest/projects/1.0/project/AAFAIA/lastVisited</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+</sample>
+<sample t="6152" lt="0" ts="1606145657056" s="false" lb="jmeter_view_kanban_board" rc="400" rm="Number of samples in transaction : 12, number of failing samples : 1" tn="Jira 1-69" dt="" de="" by="88268" ng="200" na="200">
+  <httpSample t="1315" lt="595" ts="1606145657056" s="true" lb="1000 /secure/RapidBoard.jspa" rc="200" rm="" tn="Jira 1-69" dt="text" de="UTF-8" by="16670" ng="200" na="200">
+    <assertionResult>
+      <name>Response Assertion</name>
+      <failure>false</failure>
+      <error>false</error>
+    </assertionResult>
+    <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Mon, 23 Nov 2020 15:34:17 GMT
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=v0itg7PxDyRjk5DZvoggfdhsCUOIbtu/a8NFKqI+aQLQHuy0ENE8LO8T2hwqU946GQnsEhZqPf2VWZXfB5bmoWYI8s7Hwjzq2S/AIxtS3pYJug3u//DqPbwSs1ek; Expires=Mon, 30 Nov 2020 15:34:17 GMT; Path=/
+Set-Cookie: AWSALBCORS=v0itg7PxDyRjk5DZvoggfdhsCUOIbtu/a8NFKqI+aQLQHuy0ENE8LO8T2hwqU946GQnsEhZqPf2VWZXfB5bmoWYI8s7Hwjzq2S/AIxtS3pYJug3u//DqPbwSs1ek; Expires=Mon, 30 Nov 2020 15:34:17 GMT; Path=/; SameSite=None
+X-AREQUESTID: 934x541868x91
+X-ASESSIONID: 155blje
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_bsizwekuue
+Vary: User-Agent
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-US,en;q=0.5
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/secure/RapidBoard.jspa?rapidView=61</java.net.URL>
+  </httpSample>
+  <httpSample t="11" lt="11" ts="1606145658371" s="true" lb="1005 /rest/webResources/1.0/resources" rc="200" rm="" tn="Jira 1-69" dt="text" de="UTF-8" by="1382" ng="200" na="200">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Mon, 23 Nov 2020 15:34:18 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=T1TMGJJ4k9pb8MFWA7ZtnbosKH6LmvkyB/w2yUTGGFFF8yy4+c5jWfmWwO6yFh96vr0Vl0D7y+Z9Xn/Ultjxyo83/NFJAx9t0Zl8Ej8bjmw07x65P4FqxiLAwqzt; Expires=Mon, 30 Nov 2020 15:34:18 GMT; Path=/
+Set-Cookie: AWSALBCORS=T1TMGJJ4k9pb8MFWA7ZtnbosKH6LmvkyB/w2yUTGGFFF8yy4+c5jWfmWwO6yFh96vr0Vl0D7y+Z9Xn/Ultjxyo83/NFJAx9t0Zl8Ej8bjmw07x65P4FqxiLAwqzt; Expires=Mon, 30 Nov 2020 15:34:18 GMT; Path=/; SameSite=None
+X-AREQUESTID: 934x542043x94
+X-ASESSIONID: 155blje
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_bsizwekuue
+Cache-Control: no-cache, no-store, no-transform
+Vary: User-Agent
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-US,en;q=0.5
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Accept-Encoding: gzip, deflate
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Content-Length: 261
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/rest/webResources/1.0/resources</java.net.URL>
+  </httpSample>
+  <httpSample t="7" lt="7" ts="1606145658383" s="true" lb="1010 /rest/webResources/1.0/resources" rc="200" rm="" tn="Jira 1-69" dt="text" de="UTF-8" by="1516" ng="200" na="200">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Mon, 23 Nov 2020 15:34:18 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=DgXqA0DdNTHhjGdurKQIyrZwcQmrIEedyzrc3J/3QohvH6R+/sURtn4cFp4msjxDqls+j3UOAPXeuq8giSydiKqgopHxKuTNSsUBEmi/9Ld5e6VUfjvDKbfHVgDQ; Expires=Mon, 30 Nov 2020 15:34:18 GMT; Path=/
+Set-Cookie: AWSALBCORS=DgXqA0DdNTHhjGdurKQIyrZwcQmrIEedyzrc3J/3QohvH6R+/sURtn4cFp4msjxDqls+j3UOAPXeuq8giSydiKqgopHxKuTNSsUBEmi/9Ld5e6VUfjvDKbfHVgDQ; Expires=Mon, 30 Nov 2020 15:34:18 GMT; Path=/; SameSite=None
+X-AREQUESTID: 934x542045x95
+X-ASESSIONID: 155blje
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_bsizwekuue
+Cache-Control: no-cache, no-store, no-transform
+Vary: User-Agent
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-US,en;q=0.5
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Accept-Encoding: gzip, deflate
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Content-Length: 559
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/rest/webResources/1.0/resources</java.net.URL>
+  </httpSample>
+  <httpSample t="7" lt="7" ts="1606145658390" s="true" lb="1015 /rest/webResources/1.0/resources" rc="200" rm="" tn="Jira 1-69" dt="text" de="UTF-8" by="1427" ng="200" na="200">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Mon, 23 Nov 2020 15:34:18 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=rZ75Yfm1zNACWqX7i/v6z0ifqC2XCx/UoJgrx5eRJ3u+CJMNyNDLhB3QxmFFLcR4GlOa7r0FHyR2/syiomtNCEdRTCHPGREhTp8RdimGZC28X/GJeVNClu4vs57S; Expires=Mon, 30 Nov 2020 15:34:18 GMT; Path=/
+Set-Cookie: AWSALBCORS=rZ75Yfm1zNACWqX7i/v6z0ifqC2XCx/UoJgrx5eRJ3u+CJMNyNDLhB3QxmFFLcR4GlOa7r0FHyR2/syiomtNCEdRTCHPGREhTp8RdimGZC28X/GJeVNClu4vs57S; Expires=Mon, 30 Nov 2020 15:34:18 GMT; Path=/; SameSite=None
+X-AREQUESTID: 934x542048x96
+X-ASESSIONID: 155blje
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_bsizwekuue
+Cache-Control: no-cache, no-store, no-transform
+Vary: User-Agent
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-US,en;q=0.5
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Accept-Encoding: gzip, deflate
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Content-Length: 690
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/rest/webResources/1.0/resources</java.net.URL>
+  </httpSample>
+  <httpSample t="6" lt="6" ts="1606145658397" s="true" lb="1020 /rest/webResources/1.0/resources" rc="200" rm="" tn="Jira 1-69" dt="text" de="UTF-8" by="1046" ng="200" na="200">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Mon, 23 Nov 2020 15:34:18 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=0731rST631cRf+8B2OjYSdTpASYcNwx2Xukgc5XStR8qPWfYAiyBFao5Ag7sH9oA6e9sXC/DzqEQ+IMuAFMuzwwmyiRTinwRL2QlmdeEIr8HY1Uo+F5h1R9oYXSv; Expires=Mon, 30 Nov 2020 15:34:18 GMT; Path=/
+Set-Cookie: AWSALBCORS=0731rST631cRf+8B2OjYSdTpASYcNwx2Xukgc5XStR8qPWfYAiyBFao5Ag7sH9oA6e9sXC/DzqEQ+IMuAFMuzwwmyiRTinwRL2QlmdeEIr8HY1Uo+F5h1R9oYXSv; Expires=Mon, 30 Nov 2020 15:34:18 GMT; Path=/; SameSite=None
+X-AREQUESTID: 934x542050x96
+X-ASESSIONID: 155blje
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_bsizwekuue
+Cache-Control: no-cache, no-store, no-transform
+Vary: User-Agent
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-US,en;q=0.5
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Accept-Encoding: gzip, deflate
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Content-Length: 727
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/rest/webResources/1.0/resources</java.net.URL>
+  </httpSample>
+  <httpSample t="7" lt="7" ts="1606145658403" s="true" lb="1030 /rest/webResources/1.0/resources" rc="200" rm="" tn="Jira 1-69" dt="text" de="UTF-8" by="1301" ng="200" na="200">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Mon, 23 Nov 2020 15:34:18 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=anbkfjbhMVirCXijU0iSZPc+QbGe3kbMIBAkj/aLmXT/dxsaLy1IgIg0UitKz3U8wnbfRGfUOg2wgQdZD0C2HSoHDWX3UP2Kf48jd+MYTrb0mgdCxz3KK1YizTnD; Expires=Mon, 30 Nov 2020 15:34:18 GMT; Path=/
+Set-Cookie: AWSALBCORS=anbkfjbhMVirCXijU0iSZPc+QbGe3kbMIBAkj/aLmXT/dxsaLy1IgIg0UitKz3U8wnbfRGfUOg2wgQdZD0C2HSoHDWX3UP2Kf48jd+MYTrb0mgdCxz3KK1YizTnD; Expires=Mon, 30 Nov 2020 15:34:18 GMT; Path=/; SameSite=None
+X-AREQUESTID: 934x542052x95
+X-ASESSIONID: 155blje
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_bsizwekuue
+Cache-Control: no-cache, no-store, no-transform
+Vary: User-Agent
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-US,en;q=0.5
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Accept-Encoding: gzip, deflate
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Content-Length: 752
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/rest/webResources/1.0/resources</java.net.URL>
+  </httpSample>
+  <httpSample t="7" lt="6" ts="1606145658410" s="true" lb="1035 /rest/api/2/project/&lt;project_key&gt;" rc="200" rm="" tn="Jira 1-69" dt="text" de="UTF-8" by="3018" ng="200" na="200">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Mon, 23 Nov 2020 15:34:18 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=CPSvf7xrtrxic6shGhT5CUHeo39WMYB7+SmyWNjIax+9MdyvaY7/DSLohyA326AG77Q5dC9tPw7piEkHFUjflfYE53CTZwVg2Y44u42HwHB3VDHs9Qf4n77iuu2A; Expires=Mon, 30 Nov 2020 15:34:18 GMT; Path=/
+Set-Cookie: AWSALBCORS=CPSvf7xrtrxic6shGhT5CUHeo39WMYB7+SmyWNjIax+9MdyvaY7/DSLohyA326AG77Q5dC9tPw7piEkHFUjflfYE53CTZwVg2Y44u42HwHB3VDHs9Qf4n77iuu2A; Expires=Mon, 30 Nov 2020 15:34:18 GMT; Path=/; SameSite=None
+X-AREQUESTID: 934x542054x93
+X-ASESSIONID: 155blje
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_bsizwekuue
+Cache-Control: no-cache, no-store, no-transform
+Vary: User-Agent
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-US,en;q=0.5
+X-AUSERNAME: admin
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Accept-Encoding: gzip, deflate
+Accept: */*
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/rest/api/2/project/AANES?_=1606145658410</java.net.URL>
+  </httpSample>
+  <httpSample t="3" lt="3" ts="1606145658417" s="true" lb="1040 /rest/greenhopper/1.0/xboard/toolSections" rc="200" rm="" tn="Jira 1-69" dt="text" de="UTF-8" by="1373" ng="200" na="200">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Mon, 23 Nov 2020 15:34:18 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=+eVjvB9hvdsv7GFag+Bnj/llqw7QbsyRKAmRJfI/Xc0v943L1rZG5bIgQ0AuzEtsKq3DT+DITBWF+MdHpHnmPX/NftCAo3FWgOo9KHMy8ggkyvFcvuQrqu4Bjrb4; Expires=Mon, 30 Nov 2020 15:34:18 GMT; Path=/
+Set-Cookie: AWSALBCORS=+eVjvB9hvdsv7GFag+Bnj/llqw7QbsyRKAmRJfI/Xc0v943L1rZG5bIgQ0AuzEtsKq3DT+DITBWF+MdHpHnmPX/NftCAo3FWgOo9KHMy8ggkyvFcvuQrqu4Bjrb4; Expires=Mon, 30 Nov 2020 15:34:18 GMT; Path=/; SameSite=None
+X-AREQUESTID: 934x542056x92
+X-ASESSIONID: 155blje
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_bsizwekuue
+Cache-Control: no-cache, no-store, no-transform
+Vary: User-Agent
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+X-Atlassian-GreenHopper-Gadget: false
+Accept-Language: en-US,en;q=0.5
+X-AUSERNAME: admin
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Accept-Encoding: gzip, deflate
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/rest/greenhopper/1.0/xboard/toolSections?mode=work&amp;rapidViewId=61&amp;selectedProjectKey=AANES&amp;_=1606145658417</java.net.URL>
+  </httpSample>
+  <httpSample t="4453" lt="4161" ts="1606145658420" s="true" lb="1045 /rest/greenhopper/1.0/xboard/work/allData.json" rc="200" rm="" tn="Jira 1-69" dt="text" de="UTF-8" by="56039" ng="200" na="200">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Mon, 23 Nov 2020 15:34:22 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=NQEpCYW5fAN2RPEyozv1RPHZuRXxWN4l1qs0AiCaugwP34BCpk7b0e2dRvVYQGeHF3UpSYo+lN2ukykPHvJv7d3Ow/wtyKqg0VZSFUmHtFMwaFzFHhqFDxeqO7ht; Expires=Mon, 30 Nov 2020 15:34:18 GMT; Path=/
+Set-Cookie: AWSALBCORS=NQEpCYW5fAN2RPEyozv1RPHZuRXxWN4l1qs0AiCaugwP34BCpk7b0e2dRvVYQGeHF3UpSYo+lN2ukykPHvJv7d3Ow/wtyKqg0VZSFUmHtFMwaFzFHhqFDxeqO7ht; Expires=Mon, 30 Nov 2020 15:34:18 GMT; Path=/; SameSite=None
+X-AREQUESTID: 934x542057x92
+X-ASESSIONID: 155blje
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_bsizwekuue
+Cache-Control: no-cache, no-store, no-transform
+Vary: User-Agent
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+X-Atlassian-GreenHopper-Gadget: false
+Accept-Language: en-US,en;q=0.5
+X-AUSERNAME: admin
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Accept-Encoding: gzip, deflate
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/rest/greenhopper/1.0/xboard/work/allData.json?rapidViewId=61&amp;selectedProjectKey=AANES&amp;_=1606145658420</java.net.URL>
+  </httpSample>
+  <httpSample t="314" lt="314" ts="1606145662873" s="true" lb="1050 /rest/webResources/1.0/resources" rc="200" rm="" tn="Jira 1-69" dt="text" de="UTF-8" by="2454" ng="200" na="200">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Mon, 23 Nov 2020 15:34:23 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=u5LEtVXMHIZgRJz+GpF2zOQazZxKSbHViSLCHypAxR8TA0MMAUtHBBMSCCjunGlmJwmoFUsWjbHuPohl2AK0PgQByjuPsyek6705XoEOhTUHOZEukxC0swUHKfSM; Expires=Mon, 30 Nov 2020 15:34:22 GMT; Path=/
+Set-Cookie: AWSALBCORS=u5LEtVXMHIZgRJz+GpF2zOQazZxKSbHViSLCHypAxR8TA0MMAUtHBBMSCCjunGlmJwmoFUsWjbHuPohl2AK0PgQByjuPsyek6705XoEOhTUHOZEukxC0swUHKfSM; Expires=Mon, 30 Nov 2020 15:34:22 GMT; Path=/; SameSite=None
+X-AREQUESTID: 934x542593x94
+X-ASESSIONID: 155blje
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_bsizwekuue
+Cache-Control: no-cache, no-store, no-transform
+Vary: User-Agent
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-US,en;q=0.5
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Accept-Encoding: gzip, deflate
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Content-Length: 985
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/rest/webResources/1.0/resources</java.net.URL>
+  </httpSample>
+  <httpSample t="6" lt="6" ts="1606145663187" s="true" lb="1055 /rest/webResources/1.0/resources" rc="200" rm="" tn="Jira 1-69" dt="text" de="UTF-8" by="1046" ng="200" na="200">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Mon, 23 Nov 2020 15:34:23 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=h/hTkIwrvpdZRPw9qEiNo9fcm4uoc9sH4E2EAlbH1NMxq4TVcPm9y1JwNJj/LFugY/Hh6+E/5SCwZ6FuLRbH857emJ+IAqEms8y7U9P/CDpwIp2/bsqxLNO8U9lK; Expires=Mon, 30 Nov 2020 15:34:23 GMT; Path=/
+Set-Cookie: AWSALBCORS=h/hTkIwrvpdZRPw9qEiNo9fcm4uoc9sH4E2EAlbH1NMxq4TVcPm9y1JwNJj/LFugY/Hh6+E/5SCwZ6FuLRbH857emJ+IAqEms8y7U9P/CDpwIp2/bsqxLNO8U9lK; Expires=Mon, 30 Nov 2020 15:34:23 GMT; Path=/; SameSite=None
+X-AREQUESTID: 934x542634x93
+X-ASESSIONID: 155blje
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_bsizwekuue
+Cache-Control: no-cache, no-store, no-transform
+Vary: User-Agent
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-US,en;q=0.5
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Accept-Encoding: gzip, deflate
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Content-Length: 1878
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/rest/webResources/1.0/resources</java.net.URL>
+  </httpSample>
+  <httpSample t="16" lt="16" ts="1606145663193" s="false" lb="1060 /rest/projects/1.0/project/&lt;project_key&gt;/lastVisited" rc="400" rm="" tn="Jira 1-69" dt="text" de="UTF-8" by="996" ng="200" na="200">
+    <responseHeader class="java.lang.String">HTTP/1.1 400 
+Date: Mon, 23 Nov 2020 15:34:23 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=bm41+41mJ+7fxr9eNhGJqQWYkRiX/d+/c+sEwu+8xKd0cRZDSBZm3Mx3GKX/CENCXhkVEZ6fH6aS0WN4QgPo0jK06aqtIc4VXHyWl556hhFEO34sGX20l2nJTEOg; Expires=Mon, 30 Nov 2020 15:34:23 GMT; Path=/
+Set-Cookie: AWSALBCORS=bm41+41mJ+7fxr9eNhGJqQWYkRiX/d+/c+sEwu+8xKd0cRZDSBZm3Mx3GKX/CENCXhkVEZ6fH6aS0WN4QgPo0jK06aqtIc4VXHyWl556hhFEO34sGX20l2nJTEOg; Expires=Mon, 30 Nov 2020 15:34:23 GMT; Path=/; SameSite=None
+X-AREQUESTID: 934x542637x94
+X-ASESSIONID: 155blje
+X-ANODEID: i-0d9d337b1bcb8e9f8
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors &apos;self&apos;
+X-ASEN: SEN-L16338798
+X-Seraph-LoginReason: OK
+X-AUSERNAME: performance_bsizwekuue
+Cache-Control: no-cache, no-store, no-transform
+Vary: User-Agent
+Content-Encoding: gzip
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-US,en;q=0.5
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Accept-Encoding: gzip, deflate
+Accept: */*
+Origin: http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com:80
+Content-Length: 63
+Host: jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_265)
+</requestHeader>
+    <responseData class="java.lang.String"></responseData>
+    <cookies class="java.lang.String">JSESSIONID=205E910F3846ADDD63A34DE9C240C9D3; atlassian.xsrf.token=BW47-UYM6-8XU5-BT4K_019cb351cfde88030f9b7be4209cdd0b390b8c1e_lin; AWSALB=h/hTkIwrvpdZRPw9qEiNo9fcm4uoc9sH4E2EAlbH1NMxq4TVcPm9y1JwNJj/LFugY/Hh6+E/5SCwZ6FuLRbH857emJ+IAqEms8y7U9P/CDpwIp2/bsqxLNO8U9lK; AWSALBCORS=h/hTkIwrvpdZRPw9qEiNo9fcm4uoc9sH4E2EAlbH1NMxq4TVcPm9y1JwNJj/LFugY/Hh6+E/5SCwZ6FuLRbH857emJ+IAqEms8y7U9P/CDpwIp2/bsqxLNO8U9lK</cookies>
+    <method class="java.lang.String">PUT</method>
+    <queryString class="java.lang.String">{&quot;id&quot;:&quot;com.pyxis.greenhopper.jira:project-sidebar-work-kanban&quot;}</queryString>
+    <java.net.URL>http://jira-loadb-11rc4tkesr90p-1896458079.eu-central-1.elb.amazonaws.com/rest/projects/1.0/project/AANES/lastVisited</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+</sample>
+
+</testResults>

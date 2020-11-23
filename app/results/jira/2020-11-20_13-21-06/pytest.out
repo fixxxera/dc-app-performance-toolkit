@@ -1,0 +1,2173 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py first driver inits
+1605878616824,1371,selenium_login:open_login_page,Success,True
+1605878639410,22585,selenium_login:login_and_view_dashboard,Success,True
+1605878639410,23958,selenium_login,Success,True
+.test_0_selenium_a_login,Total:1 Passed:1 Failed:0
+1605878639775,341,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:2 Passed:2 Failed:0
+1605878642917,3140,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:3 Passed:3 Failed:0
+1605878643795,868,selenium_create_issue:open_quick_create,Success,True
+1605878645215,616,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605878645215,1420,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605878645215,2288,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:4 Passed:4 Failed:0
+1605878647487,2254,selenium_edit_issue:open_edit_issue_form,Success,True
+1605878648956,663,selenium_edit_issue:save_edit_issue_form,Success,True
+1605878648956,3723,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:5 Passed:5 Failed:0
+1605878649234,277,selenium_save_comment:open_comment_form,Success,True
+1605878653268,3829,selenium_save_comment:submit_form,Success,True
+1605878653268,4311,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:6 Passed:6 Failed:0
+1605878658370,5100,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:7 Passed:7 Failed:0
+1605878664430,6058,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:8 Passed:8 Failed:0
+1605878669053,4621,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:9 Passed:9 Failed:0
+1605878670209,1154,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:10 Passed:10 Failed:0
+1605878670669,458,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:11 Passed:11 Failed:0
+1605878671467,797,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:12 Passed:12 Failed:0
+1605878676063,4594,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:13 Passed:13 Failed:0
+1605878676492,428,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:14 Passed:14 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 62.27s (0:01:02) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605878676673,129,selenium_login:open_login_page,Success,True
+1605878678104,1430,selenium_login:login_and_view_dashboard,Success,True
+1605878678104,1559,selenium_login,Success,True
+.test_0_selenium_a_login,Total:15 Passed:15 Failed:0
+1605878678481,260,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:16 Passed:16 Failed:0
+1605878679301,818,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:17 Passed:17 Failed:0
+1605878680166,855,selenium_create_issue:open_quick_create,Success,True
+1605878681363,622,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605878681363,1197,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605878681364,2053,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:18 Passed:18 Failed:0
+1605878681928,549,selenium_edit_issue:open_edit_issue_form,Success,True
+1605878683039,600,selenium_edit_issue:save_edit_issue_form,Success,True
+1605878683040,1661,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:19 Passed:19 Failed:0
+1605878683460,418,selenium_save_comment:open_comment_form,Success,True
+1605878687822,4198,selenium_save_comment:submit_form,Success,True
+1605878687822,4781,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:20 Passed:20 Failed:0
+1605878689848,2025,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:21 Passed:21 Failed:0
+1605878691545,1695,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:22 Passed:22 Failed:0
+1605878692381,834,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:23 Passed:23 Failed:0
+1605878693230,847,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:24 Passed:24 Failed:0
+1605878693503,271,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:25 Passed:25 Failed:0
+1605878694299,795,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:26 Passed:26 Failed:0
+1605878694843,542,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:27 Passed:27 Failed:0
+1605878695479,634,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:28 Passed:28 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+======================== 14 passed, 1 warning in 18.95s ========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605878695673,144,selenium_login:open_login_page,Success,True
+1605878697196,1522,selenium_login:login_and_view_dashboard,Success,True
+1605878697196,1667,selenium_login,Success,True
+.test_0_selenium_a_login,Total:29 Passed:29 Failed:0
+1605878697656,342,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:30 Passed:30 Failed:0
+1605878698417,759,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:31 Passed:31 Failed:0
+1605878699136,709,selenium_create_issue:open_quick_create,Success,True
+1605878700860,1138,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605878700860,1723,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605878700860,2433,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:32 Passed:32 Failed:0
+1605878701589,715,selenium_edit_issue:open_edit_issue_form,Success,True
+1605878702804,718,selenium_edit_issue:save_edit_issue_form,Success,True
+1605878702804,1930,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:33 Passed:33 Failed:0
+1605878703230,424,selenium_save_comment:open_comment_form,Success,True
+1605878704377,987,selenium_save_comment:submit_form,Success,True
+1605878704377,1571,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:34 Passed:34 Failed:0
+1605878706443,2065,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:35 Passed:35 Failed:0
+1605878707399,954,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:36 Passed:36 Failed:0
+1605878709021,1620,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:37 Passed:37 Failed:0
+1605878710023,1000,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:38 Passed:38 Failed:0
+1605878710604,580,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:39 Passed:39 Failed:0
+1605878711356,749,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:40 Passed:40 Failed:0
+1605878712591,1234,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:41 Passed:41 Failed:0
+1605878713188,594,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:42 Passed:42 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+======================== 14 passed, 1 warning in 17.67s ========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605878713407,169,selenium_login:open_login_page,Success,True
+1605878715211,1803,selenium_login:login_and_view_dashboard,Success,True
+1605878715211,1973,selenium_login,Success,True
+.test_0_selenium_a_login,Total:43 Passed:43 Failed:0
+1605878715652,418,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:44 Passed:44 Failed:0
+1605878716541,887,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:45 Passed:45 Failed:0
+1605878717512,962,selenium_create_issue:open_quick_create,Success,True
+1605878719854,1652,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605878719854,2342,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605878719854,3304,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:46 Passed:46 Failed:0
+1605878720770,901,selenium_edit_issue:open_edit_issue_form,Success,True
+1605878721781,709,selenium_edit_issue:save_edit_issue_form,Success,True
+1605878721781,1912,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:47 Passed:47 Failed:0
+1605878722264,481,selenium_save_comment:open_comment_form,Success,True
+1605878723620,1246,selenium_save_comment:submit_form,Success,True
+1605878723620,1836,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:48 Passed:48 Failed:0
+1605878727578,3957,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:49 Passed:49 Failed:0
+1605878728680,1101,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:50 Passed:50 Failed:0
+1605878729791,1110,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:51 Passed:51 Failed:0
+1605878730913,1120,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:52 Passed:52 Failed:0
+1605878731454,540,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:53 Passed:53 Failed:0
+1605878742328,10871,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:54 Passed:54 Failed:0
+1605878743806,1477,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:55 Passed:55 Failed:0
+1605878744496,689,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:56 Passed:56 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+======================== 14 passed, 1 warning in 31.27s ========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605878744895,347,selenium_login:open_login_page,Success,True
+1605878747428,2533,selenium_login:login_and_view_dashboard,Success,True
+1605878747428,2881,selenium_login,Success,True
+.test_0_selenium_a_login,Total:57 Passed:57 Failed:0
+1605878747917,465,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:58 Passed:58 Failed:0
+1605878748873,955,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:59 Passed:59 Failed:0
+1605878750238,1355,selenium_create_issue:open_quick_create,Success,True
+1605878755173,4327,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605878755173,4935,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605878755173,6290,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:60 Passed:60 Failed:0
+1605878756474,1292,selenium_edit_issue:open_edit_issue_form,Success,True
+1605878758208,1439,selenium_edit_issue:save_edit_issue_form,Success,True
+1605878758208,3026,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:61 Passed:61 Failed:0
+1605878758941,730,selenium_save_comment:open_comment_form,Success,True
+1605878762656,3552,selenium_save_comment:submit_form,Success,True
+1605878762656,4446,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:62 Passed:62 Failed:0
+1605878774207,11549,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:63 Passed:63 Failed:0
+1605878776825,2615,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:64 Passed:64 Failed:0
+1605878778911,2085,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:65 Passed:65 Failed:0
+1605878785736,6823,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:66 Passed:66 Failed:0
+1605878786898,1159,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:67 Passed:67 Failed:0
+1605878789678,2778,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:68 Passed:68 Failed:0
+1605878792254,2575,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:69 Passed:69 Failed:0
+1605878793767,1511,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:70 Passed:70 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+======================== 14 passed, 1 warning in 49.23s ========================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605878794790,972,selenium_login:open_login_page,Success,True
+1605878797312,2521,selenium_login:login_and_view_dashboard,Success,True
+1605878797312,3493,selenium_login,Success,True
+.test_0_selenium_a_login,Total:71 Passed:71 Failed:0
+1605878798625,1301,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:72 Passed:72 Failed:0
+1605878800087,1460,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:73 Passed:73 Failed:0
+1605878801975,1879,selenium_create_issue:open_quick_create,Success,True
+1605878812005,9353,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605878812005,10030,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605878812005,11909,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:74 Passed:74 Failed:0
+1605878813915,1891,selenium_edit_issue:open_edit_issue_form,Success,True
+1605878816340,1860,selenium_edit_issue:save_edit_issue_form,Success,True
+1605878816340,4316,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:75 Passed:75 Failed:0
+1605878817323,982,selenium_save_comment:open_comment_form,Success,True
+1605878824824,6888,selenium_save_comment:submit_form,Success,True
+1605878824824,8483,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:76 Passed:76 Failed:0
+1605878843592,18766,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:77 Passed:77 Failed:0
+1605878847514,3921,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:78 Passed:78 Failed:0
+1605878851621,4105,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:79 Passed:79 Failed:0
+1605878857358,5735,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:80 Passed:80 Failed:0
+1605878858831,1471,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:81 Passed:81 Failed:0
+1605878861114,2281,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:82 Passed:82 Failed:0
+1605878864287,3172,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:83 Passed:83 Failed:0
+1605878865959,1670,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:84 Passed:84 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 72.15s (0:01:12) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605878866844,829,selenium_login:open_login_page,Success,True
+1605878872534,5689,selenium_login:login_and_view_dashboard,Success,True
+1605878872534,6520,selenium_login,Success,True
+.test_0_selenium_a_login,Total:85 Passed:85 Failed:0
+1605878873782,1225,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:86 Passed:86 Failed:0
+1605878875050,1266,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:87 Passed:87 Failed:0
+1605878877205,2146,selenium_create_issue:open_quick_create,Success,True
+1605878889356,11407,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605878889356,12150,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605878889356,14297,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:88 Passed:88 Failed:0
+1605878891397,2032,selenium_edit_issue:open_edit_issue_form,Success,True
+1605878894156,2135,selenium_edit_issue:save_edit_issue_form,Success,True
+1605878894156,4790,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:89 Passed:89 Failed:0
+1605878895446,1288,selenium_save_comment:open_comment_form,Success,True
+1605878903715,8161,selenium_save_comment:submit_form,Success,True
+1605878903715,9557,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:90 Passed:90 Failed:0
+1605878920283,16566,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:91 Passed:91 Failed:0
+1605878923622,3337,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:92 Passed:92 Failed:0
+1605878926735,3111,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:93 Passed:93 Failed:0
+1605878932741,6005,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:94 Passed:94 Failed:0
+1605878934218,1476,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:95 Passed:95 Failed:0
+1605878937637,3417,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:96 Passed:96 Failed:0
+1605878940294,2655,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:97 Passed:97 Failed:0
+1605878941993,1697,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:98 Passed:98 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 75.99s (0:01:15) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605878942735,692,selenium_login:open_login_page,Success,True
+1605878944570,1834,selenium_login:login_and_view_dashboard,Success,True
+1605878944570,2526,selenium_login,Success,True
+.test_0_selenium_a_login,Total:99 Passed:99 Failed:0
+1605878945580,999,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:100 Passed:100 Failed:0
+1605878946906,1324,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:101 Passed:101 Failed:0
+1605878948633,1718,selenium_create_issue:open_quick_create,Success,True
+1605878960795,11441,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605878960795,12161,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605878960795,13880,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:102 Passed:102 Failed:0
+1605878962925,2121,selenium_edit_issue:open_edit_issue_form,Success,True
+1605878965291,2054,selenium_edit_issue:save_edit_issue_form,Success,True
+1605878965291,4487,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:103 Passed:103 Failed:0
+1605878966157,863,selenium_save_comment:open_comment_form,Success,True
+1605878972533,6276,selenium_save_comment:submit_form,Success,True
+1605878972533,7239,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:104 Passed:104 Failed:0
+1605878988887,16352,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:105 Passed:105 Failed:0
+1605878993199,4310,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:106 Passed:106 Failed:0
+1605878995931,2731,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:107 Passed:107 Failed:0
+1605879000086,4153,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:108 Passed:108 Failed:0
+1605879001602,1514,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:109 Passed:109 Failed:0
+1605879003279,1675,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:110 Passed:110 Failed:0
+1605879006080,2800,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:111 Passed:111 Failed:0
+1605879007909,1827,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:112 Passed:112 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 65.88s (0:01:05) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605879009069,1110,selenium_login:open_login_page,Success,True
+1605879011678,2608,selenium_login:login_and_view_dashboard,Success,True
+1605879011678,3718,selenium_login,Success,True
+.test_0_selenium_a_login,Total:113 Passed:113 Failed:0
+1605879012762,1072,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:114 Passed:114 Failed:0
+1605879014073,1309,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:115 Passed:115 Failed:0
+1605879015950,1868,selenium_create_issue:open_quick_create,Success,True
+1605879028005,11421,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605879028005,12054,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605879028005,13923,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:116 Passed:116 Failed:0
+1605879029585,1570,selenium_edit_issue:open_edit_issue_form,Success,True
+1605879031963,1731,selenium_edit_issue:save_edit_issue_form,Success,True
+1605879031963,3948,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:117 Passed:117 Failed:0
+1605879032963,998,selenium_save_comment:open_comment_form,Success,True
+1605879038968,5902,selenium_save_comment:submit_form,Success,True
+1605879038969,7004,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:118 Passed:118 Failed:0
+1605879053145,14175,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:119 Passed:119 Failed:0
+1605879057160,4014,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:120 Passed:120 Failed:0
+1605879060605,3443,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:121 Passed:121 Failed:0
+1605879064717,4110,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:122 Passed:122 Failed:0
+1605879065917,1199,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:123 Passed:123 Failed:0
+1605879068090,2171,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:124 Passed:124 Failed:0
+1605879070770,2679,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:125 Passed:125 Failed:0
+1605879072377,1605,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:126 Passed:126 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 64.43s (0:01:04) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605879073135,707,selenium_login:open_login_page,Success,True
+1605879075280,2144,selenium_login:login_and_view_dashboard,Success,True
+1605879075280,2852,selenium_login,Success,True
+.test_0_selenium_a_login,Total:127 Passed:127 Failed:0
+1605879076887,1596,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:128 Passed:128 Failed:0
+1605879078209,1320,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:129 Passed:129 Failed:0
+1605879080016,1798,selenium_create_issue:open_quick_create,Success,True
+1605879092079,11402,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605879092079,12062,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605879092079,13861,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:130 Passed:130 Failed:0
+1605879093776,1679,selenium_edit_issue:open_edit_issue_form,Success,True
+1605879096299,1705,selenium_edit_issue:save_edit_issue_form,Success,True
+1605879096299,4202,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:131 Passed:131 Failed:0
+1605879097385,1084,selenium_save_comment:open_comment_form,Success,True
+1605879104698,7203,selenium_save_comment:submit_form,Success,True
+1605879104699,8398,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:132 Passed:132 Failed:0
+1605879118998,14298,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:133 Passed:133 Failed:0
+1605879124060,5060,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:134 Passed:134 Failed:0
+1605879127018,2957,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:135 Passed:135 Failed:0
+1605879131399,4379,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:136 Passed:136 Failed:0
+1605879132478,1078,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:137 Passed:137 Failed:0
+1605879135000,2519,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:138 Passed:138 Failed:0
+1605879137399,2398,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:139 Passed:139 Failed:0
+1605879139334,1933,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:140 Passed:140 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 66.92s (0:01:06) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605879140181,797,selenium_login:open_login_page,Success,True
+1605879144144,3962,selenium_login:login_and_view_dashboard,Success,True
+1605879144144,4760,selenium_login,Success,True
+.test_0_selenium_a_login,Total:141 Passed:141 Failed:0
+1605879145174,1008,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:142 Passed:142 Failed:0
+1605879146455,1279,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:143 Passed:143 Failed:0
+1605879148117,1652,selenium_create_issue:open_quick_create,Success,True
+1605879159709,10888,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605879159709,11592,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605879159709,13245,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:144 Passed:144 Failed:0
+1605879161508,1786,selenium_edit_issue:open_edit_issue_form,Success,True
+1605879163666,1671,selenium_edit_issue:save_edit_issue_form,Success,True
+1605879163666,3944,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:145 Passed:145 Failed:0
+1605879164776,1108,selenium_save_comment:open_comment_form,Success,True
+1605879172631,7755,selenium_save_comment:submit_form,Success,True
+1605879172631,8963,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:146 Passed:146 Failed:0
+1605879187595,14962,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:147 Passed:147 Failed:0
+1605879191328,3731,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:148 Passed:148 Failed:0
+1605879193452,2122,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:149 Passed:149 Failed:0
+1605879198030,4575,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:150 Passed:150 Failed:0
+1605879199470,1439,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:151 Passed:151 Failed:0
+1605879202126,2655,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:152 Passed:152 Failed:0
+1605879205198,3069,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:153 Passed:153 Failed:0
+1605879206704,1505,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:154 Passed:154 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 67.33s (0:01:07) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605879207484,729,selenium_login:open_login_page,Success,True
+1605879209395,1911,selenium_login:login_and_view_dashboard,Success,True
+1605879209395,2640,selenium_login,Success,True
+.test_0_selenium_a_login,Total:155 Passed:155 Failed:0
+1605879210642,1226,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:156 Passed:156 Failed:0
+1605879212154,1510,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:157 Passed:157 Failed:0
+1605879214429,2266,selenium_create_issue:open_quick_create,Success,True
+1605879223419,8399,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605879223419,8989,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605879223419,11256,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:158 Passed:158 Failed:0
+1605879224999,1570,selenium_edit_issue:open_edit_issue_form,Success,True
+1605879227797,2004,selenium_edit_issue:save_edit_issue_form,Success,True
+1605879227798,4369,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:159 Passed:159 Failed:0
+1605879228828,1029,selenium_save_comment:open_comment_form,Success,True
+1605879236382,6941,selenium_save_comment:submit_form,Success,True
+1605879236382,8583,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:160 Passed:160 Failed:0
+1605879253416,17032,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:161 Passed:161 Failed:0
+1605879257013,3596,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:162 Passed:162 Failed:0
+1605879260227,3212,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:163 Passed:163 Failed:0
+1605879264109,3880,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:164 Passed:164 Failed:0
+1605879265422,1311,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:165 Passed:165 Failed:0
+1605879267657,2234,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:166 Passed:166 Failed:0
+1605879270423,2765,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:167 Passed:167 Failed:0
+1605879272203,1778,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:168 Passed:168 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 65.46s (0:01:05) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605879272967,713,selenium_login:open_login_page,Success,True
+1605879274667,1699,selenium_login:login_and_view_dashboard,Success,True
+1605879274667,2414,selenium_login,Success,True
+.test_0_selenium_a_login,Total:169 Passed:169 Failed:0
+1605879275538,860,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:170 Passed:170 Failed:0
+1605879277041,1501,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:171 Passed:171 Failed:0
+1605879278891,1841,selenium_create_issue:open_quick_create,Success,True
+1605879289950,10416,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605879289950,11058,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605879289950,12900,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:172 Passed:172 Failed:0
+1605879291689,1729,selenium_edit_issue:open_edit_issue_form,Success,True
+1605879293968,1889,selenium_edit_issue:save_edit_issue_form,Success,True
+1605879293968,4008,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:173 Passed:173 Failed:0
+1605879295007,1038,selenium_save_comment:open_comment_form,Success,True
+1605879303302,7686,selenium_save_comment:submit_form,Success,True
+1605879303302,9333,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:174 Passed:174 Failed:0
+1605879319588,16284,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:175 Passed:175 Failed:0
+1605879322784,3195,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:176 Passed:176 Failed:0
+1605879326056,3270,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:177 Passed:177 Failed:0
+1605879330425,4368,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:178 Passed:178 Failed:0
+1605879331537,1109,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:179 Passed:179 Failed:0
+1605879334019,2480,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:180 Passed:180 Failed:0
+1605879337049,3029,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:181 Passed:181 Failed:0
+1605879338680,1629,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:182 Passed:182 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 66.44s (0:01:06) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605879339514,762,selenium_login:open_login_page,Success,True
+1605879343559,4045,selenium_login:login_and_view_dashboard,Success,True
+1605879343559,4807,selenium_login,Success,True
+.test_0_selenium_a_login,Total:183 Passed:183 Failed:0
+1605879344865,1282,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:184 Passed:184 Failed:0
+1605879346168,1301,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:185 Passed:185 Failed:0
+1605879347767,1590,selenium_create_issue:open_quick_create,Success,True
+1605879358775,10371,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605879358775,11008,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605879358775,12598,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:186 Passed:186 Failed:0
+1605879360487,1689,selenium_edit_issue:open_edit_issue_form,Success,True
+1605879363351,2280,selenium_edit_issue:save_edit_issue_form,Success,True
+1605879363351,4554,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:187 Passed:187 Failed:0
+1605879364691,1338,selenium_save_comment:open_comment_form,Success,True
+1605879371839,6535,selenium_save_comment:submit_form,Success,True
+1605879371839,8486,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:188 Passed:188 Failed:0
+1605879387386,15545,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:189 Passed:189 Failed:0
+1605879391905,4517,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:190 Passed:190 Failed:0
+1605879394899,2992,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:191 Passed:191 Failed:0
+1605879399257,4357,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:192 Passed:192 Failed:0
+1605879400478,1219,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:193 Passed:193 Failed:0
+1605879402463,1982,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:194 Passed:194 Failed:0
+1605879405841,3376,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:195 Passed:195 Failed:0
+1605879407481,1639,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:196 Passed:196 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 68.74s (0:01:08) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605879408238,684,selenium_login:open_login_page,Success,True
+1605879412280,4041,selenium_login:login_and_view_dashboard,Success,True
+1605879412280,4726,selenium_login,Success,True
+.test_0_selenium_a_login,Total:197 Passed:197 Failed:0
+1605879413457,1150,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:198 Passed:198 Failed:0
+1605879414992,1534,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:199 Passed:199 Failed:0
+1605879416977,1975,selenium_create_issue:open_quick_create,Success,True
+1605879427523,9861,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605879427523,10545,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605879427523,12521,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:200 Passed:200 Failed:0
+1605879428981,1440,selenium_edit_issue:open_edit_issue_form,Success,True
+1605879431552,1748,selenium_edit_issue:save_edit_issue_form,Success,True
+1605879431552,4012,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:201 Passed:201 Failed:0
+1605879432555,1000,selenium_save_comment:open_comment_form,Success,True
+1605879439818,7121,selenium_save_comment:submit_form,Success,True
+1605879439818,8264,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:202 Passed:202 Failed:0
+1605879455441,15621,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:203 Passed:203 Failed:0
+1605879459593,4151,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:204 Passed:204 Failed:0
+1605879462631,3036,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:205 Passed:205 Failed:0
+1605879469553,6920,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:206 Passed:206 Failed:0
+1605879470649,1094,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:207 Passed:207 Failed:0
+1605879472944,2293,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:208 Passed:208 Failed:0
+1605879475328,2383,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:209 Passed:209 Failed:0
+1605879476711,1381,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:210 Passed:210 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 69.17s (0:01:09) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605879477725,965,selenium_login:open_login_page,Success,True
+1605879481175,3449,selenium_login:login_and_view_dashboard,Success,True
+1605879481175,4414,selenium_login,Success,True
+.test_0_selenium_a_login,Total:211 Passed:211 Failed:0
+1605879482237,1040,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:212 Passed:212 Failed:0
+1605879483765,1526,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:213 Passed:213 Failed:0
+1605879486032,2257,selenium_create_issue:open_quick_create,Success,True
+1605879498022,11413,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605879498022,11990,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605879498022,14248,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:214 Passed:214 Failed:0
+1605879500069,2037,selenium_edit_issue:open_edit_issue_form,Success,True
+1605879502401,2015,selenium_edit_issue:save_edit_issue_form,Success,True
+1605879502401,4369,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:215 Passed:215 Failed:0
+1605879503644,1242,selenium_save_comment:open_comment_form,Success,True
+1605879510479,6222,selenium_save_comment:submit_form,Success,True
+1605879510479,8077,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:216 Passed:216 Failed:0
+1605879526494,16013,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:217 Passed:217 Failed:0
+1605879530823,4327,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:218 Passed:218 Failed:0
+1605879533462,2638,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:219 Passed:219 Failed:0
+1605879538015,4551,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:220 Passed:220 Failed:0
+1605879539392,1375,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:221 Passed:221 Failed:0
+1605879541961,2568,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:222 Passed:222 Failed:0
+1605879544222,2259,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:223 Passed:223 Failed:0
+1605879545947,1724,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:224 Passed:224 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 69.20s (0:01:09) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605879546610,613,selenium_login:open_login_page,Success,True
+1605879550536,3925,selenium_login:login_and_view_dashboard,Success,True
+1605879550536,4538,selenium_login,Success,True
+.test_0_selenium_a_login,Total:225 Passed:225 Failed:0
+1605879551634,1074,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:226 Passed:226 Failed:0
+1605879552874,1238,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:227 Passed:227 Failed:0
+1605879554703,1819,selenium_create_issue:open_quick_create,Success,True
+1605879567305,11921,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605879567305,12601,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605879567305,14421,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:228 Passed:228 Failed:0
+1605879569191,1871,selenium_edit_issue:open_edit_issue_form,Success,True
+1605879571719,1599,selenium_edit_issue:save_edit_issue_form,Success,True
+1605879571719,4400,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:229 Passed:229 Failed:0
+1605879572698,977,selenium_save_comment:open_comment_form,Success,True
+1605879579317,5949,selenium_save_comment:submit_form,Success,True
+1605879579317,7596,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:230 Passed:230 Failed:0
+1605879595779,16460,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:231 Passed:231 Failed:0
+1605879600294,4513,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:232 Passed:232 Failed:0
+1605879603604,3308,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:233 Passed:233 Failed:0
+1605879609893,6287,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:234 Passed:234 Failed:0
+1605879611160,1265,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:235 Passed:235 Failed:0
+1605879613645,2484,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:236 Passed:236 Failed:0
+1605879616993,3346,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:237 Passed:237 Failed:0
+1605879619222,2227,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:238 Passed:238 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 73.23s (0:01:13) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605879620044,772,selenium_login:open_login_page,Success,True
+1605879624754,4710,selenium_login:login_and_view_dashboard,Success,True
+1605879624754,5482,selenium_login,Success,True
+.test_0_selenium_a_login,Total:239 Passed:239 Failed:0
+1605879626170,1391,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:240 Passed:240 Failed:0
+1605879627689,1518,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:241 Passed:241 Failed:0
+1605879629133,1435,selenium_create_issue:open_quick_create,Success,True
+1605879639586,9858,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605879639586,10452,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605879639586,11887,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:242 Passed:242 Failed:0
+1605879641541,1939,selenium_edit_issue:open_edit_issue_form,Success,True
+1605879643719,1872,selenium_edit_issue:save_edit_issue_form,Success,True
+1605879643719,4117,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:243 Passed:243 Failed:0
+1605879644970,1249,selenium_save_comment:open_comment_form,Success,True
+1605879652547,6960,selenium_save_comment:submit_form,Success,True
+1605879652547,8826,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:244 Passed:244 Failed:0
+1605879668290,15742,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:245 Passed:245 Failed:0
+1605879673949,5657,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:246 Passed:246 Failed:0
+1605879677047,3096,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:247 Passed:247 Failed:0
+1605879682688,5639,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:248 Passed:248 Failed:0
+1605879684307,1618,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:249 Passed:249 Failed:0
+1605879687097,2788,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:250 Passed:250 Failed:0
+1605879690003,2905,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:251 Passed:251 Failed:0
+1605879691492,1487,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:252 Passed:252 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 72.23s (0:01:12) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605879692407,865,selenium_login:open_login_page,Success,True
+1605879697515,5108,selenium_login:login_and_view_dashboard,Success,True
+1605879697515,5973,selenium_login,Success,True
+.test_0_selenium_a_login,Total:253 Passed:253 Failed:0
+1605879698873,1333,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:254 Passed:254 Failed:0
+1605879700266,1392,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:255 Passed:255 Failed:0
+1605879701724,1448,selenium_create_issue:open_quick_create,Success,True
+1605879713823,11400,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605879713823,12098,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605879713823,13547,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:256 Passed:256 Failed:0
+1605879715645,1807,selenium_edit_issue:open_edit_issue_form,Success,True
+1605879718600,2073,selenium_edit_issue:save_edit_issue_form,Success,True
+1605879718600,4762,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:257 Passed:257 Failed:0
+1605879719904,1302,selenium_save_comment:open_comment_form,Success,True
+1605879726854,6847,selenium_save_comment:submit_form,Success,True
+1605879726854,8253,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:258 Passed:258 Failed:0
+1605879744316,17460,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:259 Passed:259 Failed:0
+1605879748553,4234,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:260 Passed:260 Failed:0
+1605879751941,3386,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:261 Passed:261 Failed:0
+1605879759796,7854,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:262 Passed:262 Failed:0
+1605879760854,1056,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:263 Passed:263 Failed:0
+1605879763741,2886,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:264 Passed:264 Failed:0
+1605879767050,3307,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:265 Passed:265 Failed:0
+1605879768683,1631,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:266 Passed:266 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 77.15s (0:01:17) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605879769417,684,selenium_login:open_login_page,Success,True
+1605879774366,4949,selenium_login:login_and_view_dashboard,Success,True
+1605879774366,5633,selenium_login,Success,True
+.test_0_selenium_a_login,Total:267 Passed:267 Failed:0
+1605879775878,1487,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:268 Passed:268 Failed:0
+1605879777259,1379,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:269 Passed:269 Failed:0
+1605879779008,1739,selenium_create_issue:open_quick_create,Success,True
+1605879789030,9460,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605879789030,10021,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605879789030,11762,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:270 Passed:270 Failed:0
+1605879790808,1768,selenium_edit_issue:open_edit_issue_form,Success,True
+1605879793302,1894,selenium_edit_issue:save_edit_issue_form,Success,True
+1605879793302,4262,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:271 Passed:271 Failed:0
+1605879794219,915,selenium_save_comment:open_comment_form,Success,True
+1605879802121,7287,selenium_save_comment:submit_form,Success,True
+1605879802121,8817,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:272 Passed:272 Failed:0
+1605879818234,16112,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:273 Passed:273 Failed:0
+1605879822733,4497,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:274 Passed:274 Failed:0
+1605879826184,3449,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:275 Passed:275 Failed:0
+1605879831741,5556,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:276 Passed:276 Failed:0
+1605879833010,1268,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:277 Passed:277 Failed:0
+1605879835500,2488,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:278 Passed:278 Failed:0
+1605879839240,3738,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:279 Passed:279 Failed:0
+1605879841070,1828,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:280 Passed:280 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 72.35s (0:01:12) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605879841578,458,selenium_login:open_login_page,Success,True
+1605879843283,1705,selenium_login:login_and_view_dashboard,Success,True
+1605879843283,2163,selenium_login,Success,True
+.test_0_selenium_a_login,Total:281 Passed:281 Failed:0
+1605879844355,1057,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:282 Passed:282 Failed:0
+1605879845742,1385,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:283 Passed:283 Failed:0
+1605879847378,1627,selenium_create_issue:open_quick_create,Success,True
+1605879859019,10937,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605879859019,11640,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605879859019,13267,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:284 Passed:284 Failed:0
+1605879861241,2212,selenium_edit_issue:open_edit_issue_form,Success,True
+1605879864100,2064,selenium_edit_issue:save_edit_issue_form,Success,True
+1605879864100,5072,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:285 Passed:285 Failed:0
+1605879864856,754,selenium_save_comment:open_comment_form,Success,True
+1605879870960,5496,selenium_save_comment:submit_form,Success,True
+1605879870960,6858,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:286 Passed:286 Failed:0
+1605879887171,16209,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:287 Passed:287 Failed:0
+1605879891427,4254,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:288 Passed:288 Failed:0
+1605879894941,3513,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:289 Passed:289 Failed:0
+1605879900574,5631,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:290 Passed:290 Failed:0
+1605879902048,1472,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:291 Passed:291 Failed:0
+1605879905024,2974,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:292 Passed:292 Failed:0
+1605879908474,3449,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:293 Passed:293 Failed:0
+1605879910301,1824,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:294 Passed:294 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 69.19s (0:01:09) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605879911068,716,selenium_login:open_login_page,Success,True
+1605879913266,2197,selenium_login:login_and_view_dashboard,Success,True
+1605879913266,2914,selenium_login,Success,True
+.test_0_selenium_a_login,Total:295 Passed:295 Failed:0
+1605879914158,880,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:296 Passed:296 Failed:0
+1605879915587,1427,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:297 Passed:297 Failed:0
+1605879917498,1902,selenium_create_issue:open_quick_create,Success,True
+1605879928547,10384,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605879928547,11048,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605879928548,12951,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:298 Passed:298 Failed:0
+1605879930564,1998,selenium_edit_issue:open_edit_issue_form,Success,True
+1605879933167,1930,selenium_edit_issue:save_edit_issue_form,Success,True
+1605879933167,4602,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:299 Passed:299 Failed:0
+1605879934578,1410,selenium_save_comment:open_comment_form,Success,True
+1605879942846,8165,selenium_save_comment:submit_form,Success,True
+1605879942846,9678,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:300 Passed:300 Failed:0
+1605879961068,18221,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:301 Passed:301 Failed:0
+1605879966301,5230,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:302 Passed:302 Failed:0
+1605879969850,3548,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:303 Passed:303 Failed:0
+1605879977051,7200,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:304 Passed:304 Failed:0
+1605879978577,1524,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:305 Passed:305 Failed:0
+1605879982458,3879,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:306 Passed:306 Failed:0
+1605879986343,3884,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:307 Passed:307 Failed:0
+1605879988864,2519,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:308 Passed:308 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 78.52s (0:01:18) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605879990242,1327,selenium_login:open_login_page,Success,True
+1605879995884,5641,selenium_login:login_and_view_dashboard,Success,True
+1605879995884,6969,selenium_login,Success,True
+.test_0_selenium_a_login,Total:309 Passed:309 Failed:0
+1605879997465,1557,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:310 Passed:310 Failed:0
+1605879999695,2229,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:311 Passed:311 Failed:0
+1605880002038,2333,selenium_create_issue:open_quick_create,Success,True
+1605880017627,15033,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605880017627,15588,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605880017627,17922,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:312 Passed:312 Failed:0
+1605880019758,2118,selenium_edit_issue:open_edit_issue_form,Success,True
+1605880022835,2269,selenium_edit_issue:save_edit_issue_form,Success,True
+1605880022835,5195,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:313 Passed:313 Failed:0
+1605880024120,1283,selenium_save_comment:open_comment_form,Success,True
+1605880031105,6799,selenium_save_comment:submit_form,Success,True
+1605880031105,8269,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:314 Passed:314 Failed:0
+1605880047449,16342,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:315 Passed:315 Failed:0
+1605880051620,4169,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:316 Passed:316 Failed:0
+1605880053850,2228,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:317 Passed:317 Failed:0
+1605880059058,5207,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:318 Passed:318 Failed:0
+1605880060556,1496,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:319 Passed:319 Failed:0
+1605880063536,2979,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:320 Passed:320 Failed:0
+1605880066671,3133,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:321 Passed:321 Failed:0
+1605880068320,1647,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:322 Passed:322 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 79.41s (0:01:19) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605880069143,772,selenium_login:open_login_page,Success,True
+1605880071126,1982,selenium_login:login_and_view_dashboard,Success,True
+1605880071126,2755,selenium_login,Success,True
+.test_0_selenium_a_login,Total:323 Passed:323 Failed:0
+1605880072329,1193,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:324 Passed:324 Failed:0
+1605880073669,1338,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:325 Passed:325 Failed:0
+1605880075420,1741,selenium_create_issue:open_quick_create,Success,True
+1605880086389,10395,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605880086389,10969,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605880086389,12710,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:326 Passed:326 Failed:0
+1605880088089,1690,selenium_edit_issue:open_edit_issue_form,Success,True
+1605880090533,1949,selenium_edit_issue:save_edit_issue_form,Success,True
+1605880090533,4135,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:327 Passed:327 Failed:0
+1605880092167,1632,selenium_save_comment:open_comment_form,Success,True
+1605880100055,7249,selenium_save_comment:submit_form,Success,True
+1605880100055,9520,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:328 Passed:328 Failed:0
+1605880115471,15415,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:329 Passed:329 Failed:0
+1605880120038,4565,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:330 Passed:330 Failed:0
+1605880123358,3318,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:331 Passed:331 Failed:0
+1605880128048,4689,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:332 Passed:332 Failed:0
+1605880129148,1098,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:333 Passed:333 Failed:0
+1605880131874,2725,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:334 Passed:334 Failed:0
+1605880134819,2942,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:335 Passed:335 Failed:0
+1605880136428,1608,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:336 Passed:336 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 68.07s (0:01:08) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605880137562,1083,selenium_login:open_login_page,Success,True
+1605880140945,3382,selenium_login:login_and_view_dashboard,Success,True
+1605880140945,4466,selenium_login,Success,True
+.test_0_selenium_a_login,Total:337 Passed:337 Failed:0
+1605880142092,1124,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:338 Passed:338 Failed:0
+1605880143579,1485,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:339 Passed:339 Failed:0
+1605880145070,1481,selenium_create_issue:open_quick_create,Success,True
+1605880158675,12952,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605880158675,13605,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605880158675,15086,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:340 Passed:340 Failed:0
+1605880160830,2137,selenium_edit_issue:open_edit_issue_form,Success,True
+1605880162978,1852,selenium_edit_issue:save_edit_issue_form,Success,True
+1605880162978,4286,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:341 Passed:341 Failed:0
+1605880164144,1164,selenium_save_comment:open_comment_form,Success,True
+1605880172182,7931,selenium_save_comment:submit_form,Success,True
+1605880172182,9202,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:342 Passed:342 Failed:0
+1605880187362,15178,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:343 Passed:343 Failed:0
+1605880191349,3985,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:344 Passed:344 Failed:0
+1605880194478,3127,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:345 Passed:345 Failed:0
+1605880200524,6045,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:346 Passed:346 Failed:0
+1605880201964,1438,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:347 Passed:347 Failed:0
+1605880205629,3663,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:348 Passed:348 Failed:0
+1605880208419,2789,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:349 Passed:349 Failed:0
+1605880210222,1801,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:350 Passed:350 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 73.75s (0:01:13) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605880211103,831,selenium_login:open_login_page,Success,True
+1605880215451,4348,selenium_login:login_and_view_dashboard,Success,True
+1605880215451,5180,selenium_login,Success,True
+.test_0_selenium_a_login,Total:351 Passed:351 Failed:0
+1605880216738,1264,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:352 Passed:352 Failed:0
+1605880218264,1524,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:353 Passed:353 Failed:0
+1605880220439,2165,selenium_create_issue:open_quick_create,Success,True
+1605880232616,11429,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605880232616,12177,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605880232616,14343,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:354 Passed:354 Failed:0
+1605880234354,1714,selenium_edit_issue:open_edit_issue_form,Success,True
+1605880236839,1863,selenium_edit_issue:save_edit_issue_form,Success,True
+1605880236839,4199,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:355 Passed:355 Failed:0
+1605880237974,1133,selenium_save_comment:open_comment_form,Success,True
+1605880245406,7243,selenium_save_comment:submit_form,Success,True
+1605880245406,8566,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:356 Passed:356 Failed:0
+1605880262744,17336,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:357 Passed:357 Failed:0
+1605880267554,4808,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:358 Passed:358 Failed:0
+1605880270958,3403,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:359 Passed:359 Failed:0
+1605880276209,5249,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:360 Passed:360 Failed:0
+1605880277542,1331,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:361 Passed:361 Failed:0
+1605880280504,2960,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:362 Passed:362 Failed:0
+1605880283234,2728,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:363 Passed:363 Failed:0
+1605880284810,1574,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:364 Passed:364 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 74.55s (0:01:14) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605880285844,985,selenium_login:open_login_page,Success,True
+1605880288250,2406,selenium_login:login_and_view_dashboard,Success,True
+1605880288250,3391,selenium_login,Success,True
+.test_0_selenium_a_login,Total:365 Passed:365 Failed:0
+1605880289448,1172,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:366 Passed:366 Failed:0
+1605880290825,1375,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:367 Passed:367 Failed:0
+1605880292367,1533,selenium_create_issue:open_quick_create,Success,True
+1605880305999,12949,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605880305999,13632,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605880305999,15165,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:368 Passed:368 Failed:0
+1605880307992,1975,selenium_edit_issue:open_edit_issue_form,Success,True
+1605880310748,2207,selenium_edit_issue:save_edit_issue_form,Success,True
+1605880310748,4731,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:369 Passed:369 Failed:0
+1605880312152,1402,selenium_save_comment:open_comment_form,Success,True
+1605880318860,6552,selenium_save_comment:submit_form,Success,True
+1605880318860,8110,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:370 Passed:370 Failed:0
+1605880333761,14900,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:371 Passed:371 Failed:0
+1605880337809,4046,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:372 Passed:372 Failed:0
+1605880340338,2528,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:373 Passed:373 Failed:0
+1605880345457,5117,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:374 Passed:374 Failed:0
+1605880346706,1248,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:375 Passed:375 Failed:0
+1605880349765,3056,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:376 Passed:376 Failed:0
+1605880352881,3114,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:377 Passed:377 Failed:0
+1605880354331,1449,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:378 Passed:378 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 69.48s (0:01:09) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605880355237,820,selenium_login:open_login_page,Success,True
+1605880357410,2172,selenium_login:login_and_view_dashboard,Success,True
+1605880357410,2993,selenium_login,Success,True
+.test_0_selenium_a_login,Total:379 Passed:379 Failed:0
+1605880358548,1126,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:380 Passed:380 Failed:0
+1605880359807,1257,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:381 Passed:381 Failed:0
+1605880361613,1796,selenium_create_issue:open_quick_create,Success,True
+1605880374655,12467,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605880374655,13041,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605880374655,14838,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:382 Passed:382 Failed:0
+1605880376365,1686,selenium_edit_issue:open_edit_issue_form,Success,True
+1605880379044,2055,selenium_edit_issue:save_edit_issue_form,Success,True
+1605880379044,4365,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:383 Passed:383 Failed:0
+1605880380351,1305,selenium_save_comment:open_comment_form,Success,True
+1605880386800,6345,selenium_save_comment:submit_form,Success,True
+1605880386800,7755,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:384 Passed:384 Failed:0
+1605880402898,16096,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:385 Passed:385 Failed:0
+1605880406714,3814,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:386 Passed:386 Failed:0
+1605880410130,3414,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:387 Passed:387 Failed:0
+1605880413927,3796,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:388 Passed:388 Failed:0
+1605880415240,1310,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:389 Passed:389 Failed:0
+1605880418080,2838,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:390 Passed:390 Failed:0
+1605880421761,3679,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:391 Passed:391 Failed:0
+1605880423533,1771,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:392 Passed:392 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 69.13s (0:01:09) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605880424300,713,selenium_login:open_login_page,Success,True
+1605880428775,4475,selenium_login:login_and_view_dashboard,Success,True
+1605880428776,5189,selenium_login,Success,True
+.test_0_selenium_a_login,Total:393 Passed:393 Failed:0
+1605880429847,1048,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:394 Passed:394 Failed:0
+1605880431064,1216,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:395 Passed:395 Failed:0
+1605880432713,1639,selenium_create_issue:open_quick_create,Success,True
+1605880442250,8850,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605880442250,9537,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605880442250,11177,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:396 Passed:396 Failed:0
+1605880443730,1465,selenium_edit_issue:open_edit_issue_form,Success,True
+1605880446171,1875,selenium_edit_issue:save_edit_issue_form,Success,True
+1605880446171,3906,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:397 Passed:397 Failed:0
+1605880447585,1412,selenium_save_comment:open_comment_form,Success,True
+1605880454211,6519,selenium_save_comment:submit_form,Success,True
+1605880454211,8037,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:398 Passed:398 Failed:0
+1605880470728,16516,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:399 Passed:399 Failed:0
+1605880473677,2947,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:400 Passed:400 Failed:0
+1605880477388,3709,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:401 Passed:401 Failed:0
+1605880485087,7698,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:402 Passed:402 Failed:0
+1605880486412,1323,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:403 Passed:403 Failed:0
+1605880489422,3008,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:404 Passed:404 Failed:0
+1605880492451,3028,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:405 Passed:405 Failed:0
+1605880493892,1439,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:406 Passed:406 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 70.32s (0:01:10) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605880494844,903,selenium_login:open_login_page,Success,True
+1605880497275,2430,selenium_login:login_and_view_dashboard,Success,True
+1605880497275,3333,selenium_login,Success,True
+.test_0_selenium_a_login,Total:407 Passed:407 Failed:0
+1605880498328,1041,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:408 Passed:408 Failed:0
+1605880499719,1389,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:409 Passed:409 Failed:0
+1605880501674,1945,selenium_create_issue:open_quick_create,Success,True
+1605880513309,10902,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605880513310,11635,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605880513310,13581,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:410 Passed:410 Failed:0
+1605880515240,1906,selenium_edit_issue:open_edit_issue_form,Success,True
+1605880517524,1949,selenium_edit_issue:save_edit_issue_form,Success,True
+1605880517524,4191,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:411 Passed:411 Failed:0
+1605880518825,1299,selenium_save_comment:open_comment_form,Success,True
+1605880526720,7783,selenium_save_comment:submit_form,Success,True
+1605880526721,9195,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:412 Passed:412 Failed:0
+1605880542461,15738,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:413 Passed:413 Failed:0
+1605880545187,2724,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:414 Passed:414 Failed:0
+1605880547728,2539,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:415 Passed:415 Failed:0
+1605880553308,5579,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:416 Passed:416 Failed:0
+1605880554567,1257,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:417 Passed:417 Failed:0
+1605880557604,3035,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:418 Passed:418 Failed:0
+1605880561354,3748,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:419 Passed:419 Failed:0
+1605880563159,1803,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:420 Passed:420 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 69.23s (0:01:09) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605880563999,790,selenium_login:open_login_page,Success,True
+1605880568231,4231,selenium_login:login_and_view_dashboard,Success,True
+1605880568231,5022,selenium_login,Success,True
+.test_0_selenium_a_login,Total:421 Passed:421 Failed:0
+1605880569229,973,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:422 Passed:422 Failed:0
+1605880570805,1573,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:423 Passed:423 Failed:0
+1605880572842,2027,selenium_create_issue:open_quick_create,Success,True
+1605880586532,12953,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605880586533,13690,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605880586533,15717,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:424 Passed:424 Failed:0
+1605880588152,1598,selenium_edit_issue:open_edit_issue_form,Success,True
+1605880591459,2484,selenium_edit_issue:save_edit_issue_form,Success,True
+1605880591459,4906,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:425 Passed:425 Failed:0
+1605880592664,1204,selenium_save_comment:open_comment_form,Success,True
+1605880600138,7367,selenium_save_comment:submit_form,Success,True
+1605880600139,8678,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:426 Passed:426 Failed:0
+1605880617294,17154,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:427 Passed:427 Failed:0
+1605880620185,2889,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:428 Passed:428 Failed:0
+1605880624170,3983,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:429 Passed:429 Failed:0
+1605880630552,6380,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:430 Passed:430 Failed:0
+1605880631827,1272,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:431 Passed:431 Failed:0
+1605880634472,2644,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:432 Passed:432 Failed:0
+1605880637832,3358,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:433 Passed:433 Failed:0
+1605880639419,1586,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:434 Passed:434 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 76.22s (0:01:16) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605880640443,973,selenium_login:open_login_page,Success,True
+1605880644712,4269,selenium_login:login_and_view_dashboard,Success,True
+1605880644713,5242,selenium_login,Success,True
+.test_0_selenium_a_login,Total:435 Passed:435 Failed:0
+1605880645846,1099,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:436 Passed:436 Failed:0
+1605880647167,1319,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:437 Passed:437 Failed:0
+1605880649055,1878,selenium_create_issue:open_quick_create,Success,True
+1605880660618,10910,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605880660618,11563,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605880660618,13441,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:438 Passed:438 Failed:0
+1605880662367,1731,selenium_edit_issue:open_edit_issue_form,Success,True
+1605880664699,1842,selenium_edit_issue:save_edit_issue_form,Success,True
+1605880664699,4063,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:439 Passed:439 Failed:0
+1605880665801,1101,selenium_save_comment:open_comment_form,Success,True
+1605880672983,6569,selenium_save_comment:submit_form,Success,True
+1605880672983,8283,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:440 Passed:440 Failed:0
+1605880688940,15956,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:441 Passed:441 Failed:0
+1605880693624,4682,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:442 Passed:442 Failed:0
+1605880696616,2990,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:443 Passed:443 Failed:0
+1605880703293,6676,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:444 Passed:444 Failed:0
+1605880704445,1149,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:445 Passed:445 Failed:0
+1605880706909,2463,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:446 Passed:446 Failed:0
+1605880710161,3250,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:447 Passed:447 Failed:0
+1605880711472,1309,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:448 Passed:448 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 72.01s (0:01:12) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605880712319,797,selenium_login:open_login_page,Success,True
+1605880714583,2263,selenium_login:login_and_view_dashboard,Success,True
+1605880714583,3061,selenium_login,Success,True
+.test_0_selenium_a_login,Total:449 Passed:449 Failed:0
+1605880715753,1159,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:450 Passed:450 Failed:0
+1605880717055,1300,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:451 Passed:451 Failed:0
+1605880719038,1973,selenium_create_issue:open_quick_create,Success,True
+1605880731157,11412,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605880731157,12119,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605880731157,14093,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:452 Passed:452 Failed:0
+1605880732792,1608,selenium_edit_issue:open_edit_issue_form,Success,True
+1605880735554,2152,selenium_edit_issue:save_edit_issue_form,Success,True
+1605880735554,4370,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:453 Passed:453 Failed:0
+1605880736877,1322,selenium_save_comment:open_comment_form,Success,True
+1605880744082,7099,selenium_save_comment:submit_form,Success,True
+1605880744082,8526,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:454 Passed:454 Failed:0
+1605880757472,13389,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:455 Passed:455 Failed:0
+1605880761192,3718,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:456 Passed:456 Failed:0
+1605880764733,3540,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:457 Passed:457 Failed:0
+1605880771514,6779,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:458 Passed:458 Failed:0
+1605880772519,1004,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:459 Passed:459 Failed:0
+1605880775711,3190,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:460 Passed:460 Failed:0
+1605880779063,3350,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:461 Passed:461 Failed:0
+1605880780353,1288,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:462 Passed:462 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 68.84s (0:01:08) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605880781306,902,selenium_login:open_login_page,Success,True
+1605880783476,2169,selenium_login:login_and_view_dashboard,Success,True
+1605880783476,3071,selenium_login,Success,True
+.test_0_selenium_a_login,Total:463 Passed:463 Failed:0
+1605880784196,708,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:464 Passed:464 Failed:0
+1605880785451,1253,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:465 Passed:465 Failed:0
+1605880787424,1964,selenium_create_issue:open_quick_create,Success,True
+1605880799046,10894,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605880799046,11622,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605880799046,13586,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:466 Passed:466 Failed:0
+1605880800600,1534,selenium_edit_issue:open_edit_issue_form,Success,True
+1605880803434,2239,selenium_edit_issue:save_edit_issue_form,Success,True
+1605880803434,4369,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:467 Passed:467 Failed:0
+1605880804570,1134,selenium_save_comment:open_comment_form,Success,True
+1605880811557,6886,selenium_save_comment:submit_form,Success,True
+1605880811557,8121,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:468 Passed:468 Failed:0
+1605880827836,16278,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:469 Passed:469 Failed:0
+1605880831715,3877,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:470 Passed:470 Failed:0
+1605880835372,3656,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:471 Passed:471 Failed:0
+1605880840981,5608,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:472 Passed:472 Failed:0
+1605880842758,1775,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:473 Passed:473 Failed:0
+1605880845395,2636,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:474 Passed:474 Failed:0
+1605880848761,3364,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:475 Passed:475 Failed:0
+1605880850634,1871,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:476 Passed:476 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 70.24s (0:01:10) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605880851261,576,selenium_login:open_login_page,Success,True
+1605880853585,2324,selenium_login:login_and_view_dashboard,Success,True
+1605880853585,2901,selenium_login,Success,True
+.test_0_selenium_a_login,Total:477 Passed:477 Failed:0
+1605880854447,848,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:478 Passed:478 Failed:0
+1605880856093,1645,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:479 Passed:479 Failed:0
+1605880858001,1898,selenium_create_issue:open_quick_create,Success,True
+1605880870090,11419,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605880870090,12089,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605880870090,13988,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:480 Passed:480 Failed:0
+1605880871665,1551,selenium_edit_issue:open_edit_issue_form,Success,True
+1605880874388,2086,selenium_edit_issue:save_edit_issue_form,Success,True
+1605880874388,4275,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:481 Passed:481 Failed:0
+1605880875379,989,selenium_save_comment:open_comment_form,Success,True
+1605880882201,6717,selenium_save_comment:submit_form,Success,True
+1605880882201,7811,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:482 Passed:482 Failed:0
+1605880898041,15839,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:483 Passed:483 Failed:0
+1605880903392,5349,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:484 Passed:484 Failed:0
+1605880906571,3177,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:485 Passed:485 Failed:0
+1605880911183,4610,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:486 Passed:486 Failed:0
+1605880912840,1655,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:487 Passed:487 Failed:0
+1605880916208,3367,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:488 Passed:488 Failed:0
+1605880919971,3761,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:489 Passed:489 Failed:0
+1605880922571,2598,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:490 Passed:490 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 71.90s (0:01:11) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605880923485,836,selenium_login:open_login_page,Success,True
+1605880925717,2231,selenium_login:login_and_view_dashboard,Success,True
+1605880925717,3067,selenium_login,Success,True
+.test_0_selenium_a_login,Total:491 Passed:491 Failed:0
+1605880927220,1488,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:492 Passed:492 Failed:0
+1605880929142,1921,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:493 Passed:493 Failed:0
+1605880931617,2465,selenium_create_issue:open_quick_create,Success,True
+1605880945753,13502,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605880945753,14135,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605880945753,16601,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:494 Passed:494 Failed:0
+1605880948137,2359,selenium_edit_issue:open_edit_issue_form,Success,True
+1605880951227,2533,selenium_edit_issue:save_edit_issue_form,Success,True
+1605880951227,5449,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:495 Passed:495 Failed:0
+1605880952512,1283,selenium_save_comment:open_comment_form,Success,True
+1605880961041,7398,selenium_save_comment:submit_form,Success,True
+1605880961041,9812,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:496 Passed:496 Failed:0
+1605880978658,17616,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:497 Passed:497 Failed:0
+1605880982737,4077,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:498 Passed:498 Failed:0
+1605880986337,3598,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:499 Passed:499 Failed:0
+1605880992081,5742,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:500 Passed:500 Failed:0
+1605880993418,1336,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:501 Passed:501 Failed:0
+1605880996086,2666,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:502 Passed:502 Failed:0
+1605880999877,3789,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:503 Passed:503 Failed:0
+1605881001265,1387,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:504 Passed:504 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 78.64s (0:01:18) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605881002259,944,selenium_login:open_login_page,Success,True
+1605881006625,4365,selenium_login:login_and_view_dashboard,Success,True
+1605881006625,5310,selenium_login,Success,True
+.test_0_selenium_a_login,Total:505 Passed:505 Failed:0
+1605881007644,995,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:506 Passed:506 Failed:0
+1605881009053,1407,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:507 Passed:507 Failed:0
+1605881010899,1835,selenium_create_issue:open_quick_create,Success,True
+1605881019877,8404,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605881019877,8977,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605881019877,10813,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:508 Passed:508 Failed:0
+1605881021700,1814,selenium_edit_issue:open_edit_issue_form,Success,True
+1605881024061,1871,selenium_edit_issue:save_edit_issue_form,Success,True
+1605881024061,4175,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:509 Passed:509 Failed:0
+1605881025103,1040,selenium_save_comment:open_comment_form,Success,True
+1605881030849,5642,selenium_save_comment:submit_form,Success,True
+1605881030849,6785,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:510 Passed:510 Failed:0
+1605881046729,15879,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:511 Passed:511 Failed:0
+1605881050647,3916,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:512 Passed:512 Failed:0
+1605881054458,3809,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:513 Passed:513 Failed:0
+1605881059645,5185,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:514 Passed:514 Failed:0
+1605881060889,1243,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:515 Passed:515 Failed:0
+1605881063667,2776,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:516 Passed:516 Failed:0
+1605881066460,2791,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:517 Passed:517 Failed:0
+1605881067923,1460,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:518 Passed:518 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 66.62s (0:01:06) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605881068759,725,selenium_login:open_login_page,Success,True
+1605881070909,2149,selenium_login:login_and_view_dashboard,Success,True
+1605881070909,2875,selenium_login,Success,True
+.test_0_selenium_a_login,Total:519 Passed:519 Failed:0
+1605881072344,1422,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:520 Passed:520 Failed:0
+1605881073772,1427,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:521 Passed:521 Failed:0
+1605881075820,2039,selenium_create_issue:open_quick_create,Success,True
+1605881087434,10914,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605881087434,11613,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605881087434,13653,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:522 Passed:522 Failed:0
+1605881089430,1980,selenium_edit_issue:open_edit_issue_form,Success,True
+1605881091959,1722,selenium_edit_issue:save_edit_issue_form,Success,True
+1605881091959,4508,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:523 Passed:523 Failed:0
+1605881093035,1074,selenium_save_comment:open_comment_form,Success,True
+1605881100456,7311,selenium_save_comment:submit_form,Success,True
+1605881100456,8495,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:524 Passed:524 Failed:0
+1605881118788,18330,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:525 Passed:525 Failed:0
+1605881122786,3996,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:526 Passed:526 Failed:0
+1605881125647,2859,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:527 Passed:527 Failed:0
+1605881131488,5840,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:528 Passed:528 Failed:0
+1605881132779,1289,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:529 Passed:529 Failed:0
+1605881135772,2991,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:530 Passed:530 Failed:0
+1605881138540,2767,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:531 Passed:531 Failed:0
+1605881140230,1688,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:532 Passed:532 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 72.20s (0:01:12) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605881140873,592,selenium_login:open_login_page,Success,True
+1605881142609,1736,selenium_login:login_and_view_dashboard,Success,True
+1605881142609,2328,selenium_login,Success,True
+.test_0_selenium_a_login,Total:533 Passed:533 Failed:0
+1605881143453,829,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:534 Passed:534 Failed:0
+1605881144590,1136,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:535 Passed:535 Failed:0
+1605881146515,1915,selenium_create_issue:open_quick_create,Success,True
+1605881157125,9965,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605881157125,10609,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605881157125,12526,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:536 Passed:536 Failed:0
+1605881159344,2209,selenium_edit_issue:open_edit_issue_form,Success,True
+1605881161541,1888,selenium_edit_issue:save_edit_issue_form,Success,True
+1605881161541,4405,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:537 Passed:537 Failed:0
+1605881162958,1416,selenium_save_comment:open_comment_form,Success,True
+1605881170935,7870,selenium_save_comment:submit_form,Success,True
+1605881170935,9392,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:538 Passed:538 Failed:0
+1605881187264,16327,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:539 Passed:539 Failed:0
+1605881191392,4127,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:540 Passed:540 Failed:0
+1605881194716,3322,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:541 Passed:541 Failed:0
+1605881201795,7077,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:542 Passed:542 Failed:0
+1605881202958,1161,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:543 Passed:543 Failed:0
+1605881205822,2862,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:544 Passed:544 Failed:0
+1605881209193,3369,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:545 Passed:545 Failed:0
+1605881210876,1681,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:546 Passed:546 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 70.61s (0:01:10) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605881211724,797,selenium_login:open_login_page,Success,True
+1605881216631,4907,selenium_login:login_and_view_dashboard,Success,True
+1605881216631,5704,selenium_login,Success,True
+.test_0_selenium_a_login,Total:547 Passed:547 Failed:0
+1605881218061,1406,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:548 Passed:548 Failed:0
+1605881219282,1219,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:549 Passed:549 Failed:0
+1605881221291,1999,selenium_create_issue:open_quick_create,Success,True
+1605881234209,11957,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605881234209,12917,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605881234209,14917,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:550 Passed:550 Failed:0
+1605881236084,1852,selenium_edit_issue:open_edit_issue_form,Success,True
+1605881238873,1989,selenium_edit_issue:save_edit_issue_form,Success,True
+1605881238873,4641,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:551 Passed:551 Failed:0
+1605881240318,1443,selenium_save_comment:open_comment_form,Success,True
+1605881248095,7669,selenium_save_comment:submit_form,Success,True
+1605881248095,9220,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:552 Passed:552 Failed:0
+1605881263650,15553,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:553 Passed:553 Failed:0
+1605881267879,4227,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:554 Passed:554 Failed:0
+1605881270580,2699,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:555 Passed:555 Failed:0
+1605881274951,4369,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:556 Passed:556 Failed:0
+1605881276244,1291,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:557 Passed:557 Failed:0
+1605881278690,2444,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:558 Passed:558 Failed:0
+1605881282251,3559,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:559 Passed:559 Failed:0
+1605881284038,1785,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:560 Passed:560 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 73.12s (0:01:13) ===================
+============================= test session starts ==============================
+platform linux -- Python 3.8.0, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+rootdir: /dc-app-performance-toolkit/app
+plugins: apiritif-0.9.5
+collected 14 items
+
+selenium_ui/jira_ui.py get driver from global
+1605881285008,870,selenium_login:open_login_page,Success,True
+1605881287111,2103,selenium_login:login_and_view_dashboard,Success,True
+1605881287112,2973,selenium_login,Success,True
+.test_0_selenium_a_login,Total:561 Passed:561 Failed:0
+1605881288455,1332,selenium_browse_projects_list,Success,True
+.test_1_selenium_browse_projects_list,Total:562 Passed:562 Failed:0
+1605881289803,1346,selenium_browse_boards_list,Success,True
+.test_1_selenium_browse_boards_list,Total:563 Passed:563 Failed:0
+1605881291395,1583,selenium_create_issue:open_quick_create,Success,True
+1605881303510,11405,selenium_create_issue:fill_and_submit_issue_form:submit_issue_form,Success,True
+1605881303510,12114,selenium_create_issue:fill_and_submit_issue_form,Success,True
+1605881303510,13697,selenium_create_issue,Success,True
+.test_1_selenium_create_issue,Total:564 Passed:564 Failed:0
+1605881305601,2075,selenium_edit_issue:open_edit_issue_form,Success,True
+1605881307749,1838,selenium_edit_issue:save_edit_issue_form,Success,True
+1605881307749,4223,selenium_edit_issue,Success,True
+.test_1_selenium_edit_issue,Total:565 Passed:565 Failed:0
+1605881309043,1293,selenium_save_comment:open_comment_form,Success,True
+1605881314693,5457,selenium_save_comment:submit_form,Success,True
+1605881314693,6943,selenium_save_comment,Success,True
+.test_1_selenium_save_comment,Total:566 Passed:566 Failed:0
+1605881330849,16154,selenium_search_jql,Success,True
+.test_1_selenium_search_jql,Total:567 Passed:567 Failed:0
+1605881335279,4428,selenium_view_scrum_board_backlog,Success,True
+.test_1_selenium_view_backlog_for_scrum_board,Total:568 Passed:568 Failed:0
+1605881338262,2981,selenium_view_scrum_board,Success,True
+.test_1_selenium_view_scrum_board,Total:569 Passed:569 Failed:0
+1605881345760,7496,selenium_view_kanban_board,Success,True
+.test_1_selenium_view_kanban_board,Total:570 Passed:570 Failed:0
+1605881347200,1438,selenium_view_dashboard,Success,True
+.test_1_selenium_view_dashboard,Total:571 Passed:571 Failed:0
+1605881349732,2529,selenium_view_issue,Success,True
+.test_1_selenium_view_issue,Total:572 Passed:572 Failed:0
+1605881353490,3756,selenium_project_summary,Success,True
+.test_1_selenium_view_project_summary,Total:573 Passed:573 Failed:0
+1605881355083,1591,selenium_log_out,Success,True
+.test_2_selenium_z_log_out,Total:574 Passed:574 Failed:0
+
+
+=============================== warnings summary ===============================
+../../usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114
+  /usr/local/lib/python3.8/dist-packages/_pytest/config/__init__.py:1114: PytestAssertRewriteWarning: Module already imported so cannot be rewritten: apiritif
+    self._mark_plugins_for_rewrite(hook)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=================== 14 passed, 1 warning in 70.95s (0:01:10) ===================
