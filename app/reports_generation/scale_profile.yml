@@ -3,7 +3,7 @@ column_name: "90% Line"
 runs:
   # fullPath should contain a full path to the directory with run results. E.g. /home/$USER/dc-app-performance-toolkit/jira/results/2019-08-06_18-41-08
   - runName: "Node 1"
-    fullPath: "/home/ubuntu/after/dc-app-performance-toolkit/app/results/jira/2020-11-20_13-21-06"
+    fullPath: "/home/ubuntu/after/dc-app-performance-toolkit/app/results/jira/2020-11-23_14-49-16"
   - runName: "Node 2"
     fullPath: "/home/ubuntu/after/dc-app-performance-toolkit/app/results/jira/2020-11-23_12-07-49"
   - runName: "Node 4"
